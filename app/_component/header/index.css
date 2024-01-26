@@ -27,11 +27,11 @@ header .text-box {
 }
 .heading-primary-main {
   @apply block text-6xl tracking-[35px] text-center;
-  animation: slideToLeft 3s ease-in;
+  animation: slideToLeft 2s 750ms ease-in;
 }
 .heading-primary-sub {
   @apply block font-bold tracking-[19.5px] text-center -ml-2 mt-2;
-  animation: slideToRight 3s ease-in;
+  animation: slideToRight 2s 750ms ease-in;
 }
 
 @keyframes slideToLeft {
@@ -40,7 +40,6 @@ header .text-box {
     transform: translateX(-100px);
   }
   80% {
-    opacity: 0.9;
     transform: translateX(10px);
   }
   100% {
@@ -55,7 +54,6 @@ header .text-box {
     transform: translateX(100px);
   }
   80% {
-    opacity: 0.9;
     transform: translateX(-10px);
   }
   100% {
