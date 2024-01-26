@@ -1,0 +1,65 @@
+header {
+  @apply flex min-h-[94vh] flex-col items-center justify-between p-24;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.8),
+      rgba(40, 180, 131, 0.8)
+    ),
+    url(/assets/header-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  clip-path: polygon(0 0, 100% 0, 100% 77%, 0 100%);
+}
+
+.logo-box {
+  @apply flex justify-start w-full;
+}
+
+.logo {
+  @apply relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert;
+}
+header .text-box {
+  @apply flex justify-center items-center -mt-[15%];
+}
+
+.heading-primary {
+  @apply text-white uppercase text-center;
+}
+.heading-primary-main {
+  @apply block text-6xl tracking-[35px] text-center;
+  animation: slideToLeft 3s ease-in;
+}
+.heading-primary-sub {
+  @apply block font-bold tracking-[19.5px] text-center -ml-2 mt-2;
+  animation: slideToRight 3s ease-in;
+}
+
+@keyframes slideToLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    opacity: 0.9;
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes slideToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    opacity: 0.9;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
