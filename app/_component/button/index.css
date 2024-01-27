@@ -1,0 +1,30 @@
+.btn {
+  @apply inline-block relative px-10 py-4 rounded-full text-center hover:-translate-y-1 active:-translate-y-[-1px] uppercase transition-all;
+}
+.btn:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn::after {
+  content: "";
+  @apply inline-block w-full h-full bg-white absolute top-0 left-0 -z-10 rounded-full hover:scale-x-[1.4] hover:scale-y-[1.6] transition-all duration-[400ms] hover:opacity-0;
+}
+
+.btn-white {
+  @apply bg-white text-amber-950;
+}
+
+.btn-animated {
+  animation: moveToUp 1s ease-out 0.7s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveToUp {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+  }
+}

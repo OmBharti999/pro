@@ -1,5 +1,5 @@
 header {
-  @apply flex min-h-[94vh] flex-col items-center justify-between p-24;
+  @apply flex min-h-[620px] h-[94vh] flex-col items-center justify-start p-20 gap-20;
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),
@@ -18,8 +18,10 @@ header {
 .logo {
   @apply relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert;
 }
+
+/* .text-box */
 header .text-box {
-  @apply flex justify-center items-center -mt-[15%];
+  @apply w-full flex flex-col justify-center items-center gap-14;
 }
 
 .heading-primary {
@@ -27,11 +29,11 @@ header .text-box {
 }
 .heading-primary-main {
   @apply block text-6xl tracking-[35px] text-center;
-  animation: slideToLeft 3s ease-in;
+  animation: slideToLeft 2s 750ms ease-in;
 }
 .heading-primary-sub {
   @apply block font-bold tracking-[19.5px] text-center -ml-2 mt-2;
-  animation: slideToRight 3s ease-in;
+  animation: slideToRight 2s 750ms ease-in;
 }
 
 @keyframes slideToLeft {
@@ -40,7 +42,6 @@ header .text-box {
     transform: translateX(-100px);
   }
   80% {
-    opacity: 0.9;
     transform: translateX(10px);
   }
   100% {
@@ -55,7 +56,6 @@ header .text-box {
     transform: translateX(100px);
   }
   80% {
-    opacity: 0.9;
     transform: translateX(-10px);
   }
   100% {
