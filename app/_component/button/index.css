@@ -1,0 +1,10 @@
+.btn {
+  @apply px-10 py-4 rounded-full text-center hover:-translate-y-1 active:-translate-y-[-1px] uppercase;
+}
+.btn:hover {
+  box-shadow: 2px 2px 2px black;
+}
+
+.btn-white {
+  @apply bg-white text-amber-950;
+}

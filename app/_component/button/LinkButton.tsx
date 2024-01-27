@@ -3,7 +3,7 @@ import React from "react";
 
 interface Props {
   url: string;
-  addClass: string;
+  addClass: string | undefined;
   btnName: string;
 }
 
