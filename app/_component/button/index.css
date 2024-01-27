@@ -1,8 +1,8 @@
 .btn {
-  @apply inline-block relative px-10 py-4 rounded-full text-center hover:-translate-y-1 active:-translate-y-[-1px] uppercase transition-all;
+  @apply inline-block relative px-10 py-4 rounded-full text-center hover:-translate-y-1 active:-translate-y-[-0.1rem] uppercase transition-all;
 }
 .btn:hover {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 .btn::after {
@@ -21,7 +21,7 @@
 
 @keyframes moveToUp {
   0% {
-    transform: translateY(40px);
+    transform: translateY(4rem);
     opacity: 0;
   }
   100% {

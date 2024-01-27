@@ -16,9 +16,17 @@
   }
 }
 
+* {
+  @apply box-border;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  padding: 26px;
+  @apply w-full p-7;
   /* background: linear-gradient(
       to bottom,
       transparent,

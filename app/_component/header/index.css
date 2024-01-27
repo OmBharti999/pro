@@ -1,5 +1,5 @@
 header {
-  @apply flex min-h-[620px] h-[94vh] flex-col items-center justify-start p-20 gap-20;
+  @apply flex min-h-[62rem] h-[94vh] flex-col items-center justify-start p-20 gap-20;
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),
@@ -28,21 +28,21 @@ header .text-box {
   @apply text-white uppercase text-center;
 }
 .heading-primary-main {
-  @apply block text-6xl tracking-[35px] text-center;
+  @apply block text-6xl tracking-[3.5rem] text-center;
   animation: slideToLeft 2s 750ms ease-in;
 }
 .heading-primary-sub {
-  @apply block font-bold tracking-[19.5px] text-center -ml-2 mt-2;
+  @apply block font-bold tracking-[1.95rem] text-center -ml-2 mt-2;
   animation: slideToRight 2s 750ms ease-in;
 }
 
 @keyframes slideToLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-10rem);
   }
   80% {
-    transform: translateX(10px);
+    transform: translateX(1rem);
   }
   100% {
     opacity: 1;
@@ -53,10 +53,10 @@ header .text-box {
 @keyframes slideToRight {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10rem);
   }
   80% {
-    transform: translateX(-10px);
+    transform: translateX(-1rem);
   }
   100% {
     opacity: 1;
