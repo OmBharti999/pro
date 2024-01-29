@@ -1,0 +1,5 @@
+.section-about {
+  background: #f7f7f7;
+  margin-top: -20vh;
+  @apply py-96;
+}

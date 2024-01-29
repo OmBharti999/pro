@@ -1,11 +1,11 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { LinkButton } from "@/app/_component";
 
 import "./index.css";
 
 export const Header = () => {
   return (
-    <header>
+    <header className="w-full">
       <div className="logo-box">
         {/* <Image
           className="logo"
@@ -15,7 +15,7 @@ export const Header = () => {
           height={37}
           priority
         /> */}
-        <h2>Logo</h2>
+        <h1>Logo</h1>
       </div>
       <div className="text-box">
         <h1 className="heading-primary">
