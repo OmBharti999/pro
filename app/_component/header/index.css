@@ -1,5 +1,5 @@
 header {
-  @apply flex min-h-[62rem] h-[94vh] flex-col items-center justify-start p-20 gap-20;
+  @apply flex min-h-[62rem] h-[95vh] flex-col items-center justify-start p-20 gap-20;
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),
@@ -8,7 +8,7 @@ header {
     url(/assets/header-bg.jpg);
   background-size: cover;
   background-position: bottom;
-  clip-path: polygon(0 0, 100% 0, 100% 77%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 .logo-box {
