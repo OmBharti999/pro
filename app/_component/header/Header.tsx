@@ -18,7 +18,7 @@ export const Header = () => {
         <h1>Logo</h1>
       </div>
       <div className="text-box">
-        <h1 className="heading-primary">
+        <h1 className="heading-primary flex flex-col gap-4">
           <span className="heading-primary-main">Outdoors</span>
           <span className="heading-primary-sub">Is where life happens</span>
         </h1>
