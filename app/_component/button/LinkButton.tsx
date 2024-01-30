@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { PText } from "..";
 
 interface Props {
   url: string;
@@ -10,7 +11,7 @@ interface Props {
 export const LinkButton = ({ url, addClass, btnName }: Props) => {
   return (
     <Link href={url} className={`btn ${addClass}`}>
-      {btnName}
+      <PText content={btnName} addClass={"font-medium"} />
     </Link>
   );
 };

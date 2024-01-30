@@ -9,12 +9,12 @@ interface Props {
 
 // text--->
 export const PText = ({ content = "Text", addClass }: Props) => {
-  return <p className={addClass}>{content}</p>;
+  return <p className={`text-2xl ${addClass}`}>{content}</p>;
 };
 
 // heading--->
 export const Heading = ({ content = "Text", addClass }: Props) => {
-  return <h2 className={addClass}>{content}</h2>;
+  return <h2 className={`text-3xl ${addClass}`}>{content}</h2>;
 };
 
 export const PrimHeading = ({ content = "TextHeading", addClass }: Props) => {

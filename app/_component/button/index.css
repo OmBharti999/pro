@@ -1,5 +1,5 @@
 .btn {
-  @apply inline-block relative px-10 py-4 rounded-full text-center hover:-translate-y-1 active:-translate-y-[-0.1rem] uppercase transition-all;
+  @apply inline-block relative px-14 py-6 rounded-full text-center hover:-translate-y-1 active:-translate-y-[-0.1rem] uppercase transition-all;
 }
 .btn:hover {
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.3);
