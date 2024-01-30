@@ -9,14 +9,14 @@ export const ImageComposition = () => {
         alt=""
         width={200}
         height={140}
-        className="shadow-xl bg-cover absolute left-0 top-4"
+        className="shadow-xl bg-cover absolute left-0 top-6"
       />
       <Image
         src={"/assets/image-2.jpg"}
         alt=""
         width={200}
         height={140}
-        className="shadow-xl bg-cover absolute left-72 top-20"
+        className="shadow-xl bg-cover absolute left-64 top-20"
       />
       <Image
         src={"/assets/image-3.jpg"}
