@@ -31,7 +31,7 @@ export const MainContent = () => {
             <PText content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ullam amet dolor assumenda suscipit provident enim rem sint ea nihil." />
             <LinkButtonSimple
               url={"/"}
-              btnName={"Learn more →"}
+              btnName={`Learn more →`}
               addClass="mt-4"
             />
           </aside>

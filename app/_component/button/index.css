@@ -32,7 +32,7 @@
 /* btn- simple */
 
 .btn-simple {
-  @apply text-2xl inline-block text-green-600 border-b-2 border-green-600 w-fit hover:bg-green-600 hover:text-white p-1 hover:shadow-md hover:-translate-y-1;
+  @apply text-2xl inline-block text-green-600 border-b-2 border-green-600 w-fit hover:bg-green-600 hover:text-white py-2 px-3 hover:px-4 hover:shadow-md hover:-translate-y-1;
   transition: all 0.3s;
   /* transform: translateY(-2px); */
 }
