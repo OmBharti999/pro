@@ -8,7 +8,7 @@ interface Props {
 }
 
 // text--->
-export const Text = ({ content = "Text", addClass }: Props) => {
+export const PText = ({ content = "Text", addClass }: Props) => {
   return <p className={addClass}>{content}</p>;
 };
 

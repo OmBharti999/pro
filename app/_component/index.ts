@@ -6,5 +6,5 @@ export {
   HeadingSecondary,
   PrimHeading,
   SubHeading,
-  Text,
+  PText,
 } from "./fonts";
