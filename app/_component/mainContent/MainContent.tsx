@@ -17,7 +17,7 @@ export const MainContent = () => {
           content="Exciting tour for adventure people"
           addClass="py-2 mb-14"
         />
-        <div className="flex max-w-[96rem] mx-auto py-4 md:gap-16 lg:gap-28">
+        <div className="flex max-w-[96rem] mx-auto py-4 md:gap-16 lg:gap-28 mt-28">
           <aside className="w-full flex flex-col gap-4">
             <Heading
               addClass="mt-6"

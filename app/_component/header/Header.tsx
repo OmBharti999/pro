@@ -23,7 +23,7 @@ export const Header = () => {
           <span className="heading-primary-sub">Is where life happens</span>
         </h1>
         <LinkButton
-          addClass="btn-white btn-animated"
+          addClass="btn-white btn-animated mt-10"
           url={"#"}
           btnName="Discover Our tour"
         />
