@@ -9,7 +9,7 @@ interface Props {
 
 // text--->
 export const PText = ({ content = "Text", addClass }: Props) => {
-  return <p className={`text-2xl ${addClass}`}>{content}</p>;
+  return <p className={`text-xl ${addClass}`}>{content}</p>;
 };
 
 // heading--->
