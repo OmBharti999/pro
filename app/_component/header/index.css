@@ -1,5 +1,5 @@
 header {
-  @apply flex min-h-[62rem] h-[95vh] flex-col items-center justify-start p-20 gap-20;
+  @apply flex h-[95vh] flex-col items-center justify-start p-20 gap-20;
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),
@@ -28,11 +28,11 @@ header .text-box {
   @apply text-white uppercase text-center;
 }
 .heading-primary-main {
-  @apply block text-[6rem] tracking-[3.5rem] text-center;
+  @apply block text-8xl tracking-[3.5rem] text-center;
   animation: slideToLeft 2s 750ms ease-in;
 }
 .heading-primary-sub {
-  @apply block font-bold text-[1.6rem] tracking-[1.95rem] text-center -ml-2 mt-2;
+  @apply block font-bold text-2xl tracking-[1.95rem] text-center -ml-2 mt-2;
   animation: slideToRight 2s 750ms ease-in;
 }
 
