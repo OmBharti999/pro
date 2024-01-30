@@ -11,13 +11,13 @@ import Link from "next/link";
 
 export const MainContent = () => {
   return (
-    <main>
-      <section className="section-about px-4">
+    <>
+      <section className="section-about md:px-12 lg:px-20">
         <HeadingSecondary
           content="Exciting tour for adventure people"
           addClass="py-2 mb-14"
         />
-        <div className="flex container mx-auto py-4 gap-14">
+        <div className="flex container mx-auto py-4 gap-28">
           <aside className="w-1/2 flex flex-col gap-4">
             <Heading
               addClass="mt-6"
@@ -35,9 +35,9 @@ export const MainContent = () => {
               addClass="mt-4"
             />
           </aside>
-          <aside className="w-1/2"></aside>
+          <aside className="w-1/2">fdsh</aside>
         </div>
       </section>
-    </main>
+    </>
   );
 };
