@@ -35,7 +35,7 @@ export const MainContent = () => {
               addClass="mt-4"
             />
           </aside>
-          <aside className="w-full md:pl-8">
+          <aside className="w-full md:pl-20 lg:pl-32">
             <ImageComposition />
           </aside>
         </div>
