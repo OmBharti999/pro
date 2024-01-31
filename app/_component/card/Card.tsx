@@ -1,8 +1,6 @@
-// import Image from "next/image";
-import React from "react";
+import { Heading, PText } from "..";
 
 import "./index.css";
-import { Heading, PText } from "..";
 
 export const Card = () => {
   return (
@@ -12,7 +10,7 @@ export const Card = () => {
         {/* <Globe /> */}
         <h1 className="h-20">icon</h1>
         <Heading content="simple" addClass="mb-4"/>
-        <PText addClass="text-center" content="dfsd fhkjsafl fahf fdshk hfkjsdhaj dfgklds fkjshfh fjksfhksf fdskhfh fjdf d kfkh ehhs fdsfh hfkseh fdkjs" />
+        <PText addClass="text-center" content="dfsd kjs al fahf gds hk sdhaj dgklds shfh jsf skhh jdb d kkh ehs fdsfh hi seh dkjs" />
       </div>
     </div>
   );
