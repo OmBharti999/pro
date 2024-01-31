@@ -21,12 +21,12 @@ export const MainContent = () => {
           <aside className="w-full flex flex-col justify-center items-end ">
             <div className="md:11/12 2xl:w-10/12  gap-4">
               <Heading
-                addClass="mt-4"
+                addClass="mt-4 mb-2"
                 content="You'r going to fall in love with nature"
               />
               <PText content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequatur ad quis, hic alias velit dolore provident facilis?" />
               <Heading
-                addClass="mt-6"
+                addClass="mt-6 mb-2"
                 content="Live adventures like you have never before"
               />
               <PText content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ullam amet dolor assumenda suscipit provident enim rem sint ea nihil." />
