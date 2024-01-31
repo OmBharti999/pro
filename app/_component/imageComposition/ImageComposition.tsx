@@ -8,7 +8,7 @@ const commonHeight = 190;
 
 export const ImageComposition = () => {
   return (
-    <div className="relative">
+    <div className="image-composition-container relative">
       <Image
         src={"/assets/image-1.jpg"}
         alt=""
