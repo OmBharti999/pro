@@ -4,7 +4,7 @@ import "./index.css";
 
 export const Card = () => {
   return (
-    <div className="card flex justify-center w-64 bg-gray-100 h-72">
+    <div className="card flex justify-center w-60 bg-gray-100 min-h-72">
       {/* <Image src={Globe} alt="globe-icon" width={100} height={100} /> */}
       <div className="flex w-11/12 flex-col justify-center items-center">
         {/* <Globe /> */}

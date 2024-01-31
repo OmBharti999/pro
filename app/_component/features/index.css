@@ -1,5 +1,5 @@
 .section-feature {
-  @apply flex gap-3 p-20 justify-between;
+  @apply flex gap-8 p-20 justify-center items-center max-lg:flex-row;
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),

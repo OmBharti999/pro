@@ -5,7 +5,7 @@ import "./index.css";
 export const Features = () => {
   return (
     <>
-      <section className="section-feature">
+      <section className="section-feature flex-wrap">
         <Card />
         <Card />
         <Card />
