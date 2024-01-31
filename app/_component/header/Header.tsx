@@ -1,5 +1,5 @@
 // import Image from "next/image";
-import { LinkButton } from "@/app/_component";
+import { LinkButton, PrimHeading, SubHeading } from "@/app/_component";
 
 import "./index.css";
 
@@ -18,12 +18,13 @@ export const Header = () => {
         <h1>Logo</h1>
       </div>
       <div className="text-box">
-        <h1 className="heading-primary flex flex-col gap-4">
-          <span className="heading-primary-main">Outdoors</span>
-          <span className="heading-primary-sub">Is where life happens</span>
-        </h1>
+        <PrimHeading content="Outdoors" addClass="slide-left" />
+        <SubHeading
+          content={"Is where life happens"}
+          addClass="slide-right -ml-4"
+        />
         <LinkButton
-          addClass="btn-white btn-animated mt-10"
+          addClass="btn-white btn-animated mt-20"
           url={"#"}
           btnName="Discover Our tour"
         />

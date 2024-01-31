@@ -17,6 +17,7 @@ export const Heading = ({ content = "Text", addClass }: Props) => {
   return <h2 className={`text-3xl ${addClass}`}>{content}</h2>;
 };
 
+// prime heading should be used only once
 export const PrimHeading = ({ content = "TextHeading", addClass }: Props) => {
   return <Heading addClass={`heading-primary ${addClass}`} content={content} />;
 };
