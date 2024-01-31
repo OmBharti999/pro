@@ -1,5 +1,3 @@
 .section-about {
-  background: #f7f7f7;
-  margin-top: -20vh;
-  @apply py-96;
+  @apply -mt-[20vh] pt-[calc(20vh+8rem)] pb-24 bg-gray-100 md:px-12 lg:px-20;
 }
