@@ -1,3 +1,3 @@
 .section-about {
-  @apply -mt-[20vh] pt-[calc(20vh+8rem)] pb-24 bg-gray-100 md:px-12 lg:px-20;
+  @apply -mt-[20vh] py-[calc(20vh+8rem)]  bg-gray-100 md:px-12 lg:px-20;
 }
