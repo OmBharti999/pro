@@ -1,5 +1,5 @@
 .section-feature {
-  @apply flex gap-8 p-20 justify-center items-center max-lg:flex-row;
+  @apply flex p-20 justify-center items-center -mt-40;
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),
@@ -8,6 +8,10 @@
     url(/assets/header-bg.jpg);
   background-size: cover;
   background-position: bottom;
-  
+
   clip-path: polygon(0 0, 100% -25vh, 100% 75vh, 0 100%);
+}
+
+.cards-container {
+  @apply flex gap-8 my-32 mb-64 justify-center items-center max-lg:flex-row;
 }
