@@ -9,3 +9,4 @@ export {
   PText,
 } from "./fonts";
 export { ImageComposition } from "./imageComposition";
+export { Features } from "./features";
