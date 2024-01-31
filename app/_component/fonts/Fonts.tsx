@@ -9,14 +9,15 @@ interface Props {
 
 // text--->
 export const PText = ({ content = "Text", addClass }: Props) => {
-  return <p className={`text-xl ${addClass}`}>{content}</p>;
+  return <p className={`${addClass}`}>{content}</p>;
 };
 
 // heading--->
 export const Heading = ({ content = "Text", addClass }: Props) => {
-  return <h2 className={`text-3xl ${addClass}`}>{content}</h2>;
+  return <h2 className={`text-xl font-medium ${addClass}`}>{content}</h2>;
 };
 
+// prime heading should be used only once
 export const PrimHeading = ({ content = "TextHeading", addClass }: Props) => {
   return <Heading addClass={`heading-primary ${addClass}`} content={content} />;
 };
@@ -32,6 +33,6 @@ export const HeadingSecondary = ({
   addClass,
 }: Props) => {
   return (
-    <Heading addClass={`heading-secondary ${addClass}`} content={content} />
+    <Heading addClass={`heading-secondary text-5xl ${addClass}`} content={content} />
   );
 };

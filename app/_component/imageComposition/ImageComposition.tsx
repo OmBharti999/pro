@@ -3,29 +3,32 @@ import React from "react";
 
 import "./index.css";
 
+const commonWidth = 240;
+const commonHeight = 190;
+
 export const ImageComposition = () => {
   return (
-    <div className="relative">
+    <div className="image-composition-container relative">
       <Image
         src={"/assets/image-1.jpg"}
         alt=""
-        width={200}
-        height={140}
-        className="left-0 top-6 img-big-effect"
+        width={commonWidth}
+        height={commonHeight}
+        className="left-0 top-2 img-big-effect"
       />
       <Image
         src={"/assets/image-2.jpg"}
         alt=""
-        width={200}
-        height={140}
-        className="left-64 top-20 img-big-effect"
+        width={commonWidth}
+        height={commonHeight}
+        className="left-52 top-20 img-big-effect"
       />
       <Image
         src={"/assets/image-3.jpg"}
         alt=""
-        width={200}
-        height={140}
-        className="left-24 top-48 img-big-effect"
+        width={commonWidth}
+        height={commonHeight}
+        className="left-20 top-40 img-big-effect"
       />
     </div>
   );
