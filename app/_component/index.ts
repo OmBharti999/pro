@@ -8,3 +8,4 @@ export {
   SubHeading,
   PText,
 } from "./fonts";
+export { ImageComposition } from "./imageComposition";
