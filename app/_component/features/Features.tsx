@@ -1,7 +1,13 @@
-import React from 'react'
+import React from "react";
+import { Card } from "..";
 
 export const Features = () => {
   return (
-    <div>Features</div>
-  )
-}
+    <>
+      <section className="section-feature">
+        <Card />
+        <Card />
+      </section>
+    </>
+  );
+};

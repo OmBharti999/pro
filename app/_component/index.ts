@@ -10,3 +10,4 @@ export {
 } from "./fonts";
 export { ImageComposition } from "./imageComposition";
 export { Features } from "./features";
+export { Card } from "./card";
