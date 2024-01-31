@@ -9,7 +9,7 @@
 }
 
 .heading-secondary {
-  @apply font-bold text-6xl bg-gradient-to-r from-green-400 to-green-700 text-center bg-clip-text text-transparent hover:skew-y-3 hover:skew-x-12;
+  @apply font-bold bg-gradient-to-r from-green-400 to-green-700 text-center bg-clip-text text-transparent hover:skew-y-3 hover:skew-x-12;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
 }
