@@ -33,6 +33,6 @@ export const HeadingSecondary = ({
   addClass,
 }: Props) => {
   return (
-    <Heading addClass={`heading-secondary text-5xl ${addClass}`} content={content} />
+    <Heading addClass={`heading-secondary text-4xl uppercase ${addClass}`} content={content} />
   );
 };
