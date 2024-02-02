@@ -14,21 +14,21 @@ export const ImageComposition = () => {
         alt=""
         width={commonWidth}
         height={commonHeight}
-        className="left-0 top-2 img-big-effect"
+        className="left-0 top-2 img-big-effect mobile-image"
       />
       <Image
         src={"/assets/image-2.jpg"}
         alt=""
         width={commonWidth}
         height={commonHeight}
-        className="left-52 top-20 img-big-effect"
+        className="left-44 max-sm:left-32 top-20 img-big-effect mobile-image"
       />
       <Image
         src={"/assets/image-3.jpg"}
         alt=""
         width={commonWidth}
         height={commonHeight}
-        className="left-20 top-40 img-big-effect"
+        className="left-14 top-40 img-big-effect mobile-image"
       />
     </div>
   );

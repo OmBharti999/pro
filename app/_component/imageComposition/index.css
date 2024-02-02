@@ -12,3 +12,7 @@
 .image-composition-container:hover .img-big-effect:not(:hover) {
   @apply scale-95;
 }
+
+.mobile-image{
+  @apply max-sm:w-48 max-sm:h-32;
+}
