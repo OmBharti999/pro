@@ -8,10 +8,6 @@
   box-sizing: inherit;
 }
 
-/* html {
-  font-size: 62.5%;
-} */
-
 body {
-  @apply w-full box-border p-10;
+  @apply w-full box-border p-6;
 }
