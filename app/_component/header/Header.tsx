@@ -5,7 +5,7 @@ import "./index.css";
 
 export const Header = () => {
   return (
-    <header className="w-full">
+    <header className="max-w-full">
       <div className="logo-box">
         {/* <Image
           className="logo"
@@ -18,7 +18,7 @@ export const Header = () => {
         <h1>Logo</h1>
       </div>
       <div className="text-box">
-        <PrimHeading content="Outdoors" addClass="slide-left" />
+        <PrimHeading content="Outdoors" addClass="slide-left break-all" />
         <SubHeading
           content={"Is where life happens"}
           addClass="slide-right -ml-4"

@@ -17,7 +17,7 @@ export const MainContent = () => {
           content="Exciting tour for adventure people"
           addClass="py-2 mb-12"
         />
-        <div className="flex max-w-[96rem] max-xl:flex-col-reverse mx-auto py-4 md:gap-12 lg:gap-20 mt-8">
+        <div className="flex-center max-w-[96rem] max-lg:flex-col-reverse mx-auto py-4 md:gap-12 lg:gap-10 mt-8">
           <aside className="w-full flex flex-col justify-center items-end ">
             <div className="md:11/12 2xl:w-10/12  gap-4">
               <Heading
@@ -37,8 +37,10 @@ export const MainContent = () => {
               />
             </div>
           </aside>
-          <aside className="w-full md:pl-12 min-h-96">
-            <ImageComposition />
+          <aside className="w-full min-h-96 flex-center">
+            <div className="max-w-96 max-sm:max-w-80 w-full min-h-72">
+              <ImageComposition />
+            </div>
           </aside>
         </div>
       </section>
