@@ -14,7 +14,7 @@ export const PText = ({ content = "Text", addClass }: Props) => {
 
 // heading--->
 export const Heading = ({ content = "Text", addClass }: Props) => {
-  return <h2 className={`text-xl font-medium ${addClass}`}>{content}</h2>;
+  return <h2 className={`font-medium ${addClass}`}>{content}</h2>;
 };
 
 // prime heading should be used only once
