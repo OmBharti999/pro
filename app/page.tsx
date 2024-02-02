@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Features, Header, MainContent } from "./_component";
+import { CardsSection, Features, Header, MainContent } from "./_component";
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <Header />
       <MainContent />
       <Features />
+      <CardsSection />
     </>
     // <main className="w-full">
     // </main>

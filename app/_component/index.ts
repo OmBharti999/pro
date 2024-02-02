@@ -11,3 +11,4 @@ export {
 export { ImageComposition } from "./imageComposition";
 export { Features } from "./features";
 export { Card } from "./card";
+export { CardsSection } from "./cardsSection";
