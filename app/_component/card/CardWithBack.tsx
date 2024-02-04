@@ -8,7 +8,6 @@ interface Props {
   guidsCount: string;
   difficulty: string;
   highlight: string;
-  // peopleCount
 }
 
 export const CardWithBack = ({
