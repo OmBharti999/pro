@@ -6,30 +6,26 @@
 
 /* ------------------------------------------------- */
 /* card with back */
-.card-with-back {
-  @apply w-80 h-[34rem] relative;
+.common-card-setting {
   backface-visibility: hidden;
-  transition: all 3s;
-  perspective: 100rem;
-  /* transform: rotateY(180deg); */
+  transition: all 0.7s;
 }
-/* .card-with-back:hover {
-    transform: rotateY(-180deg);
-} */
+
+.card-with-back {
+  @apply w-80 h-[34rem] relative common-card-setting;
+  perspective: 100rem;
+}
+
 .card-front {
-  backface-visibility: hidden;
-  transition: all 3s;
-  @apply w-72 h-[30rem] absolute bg-white;
+  @apply w-full h-[34rem] absolute rounded-lg overflow-hidden bg-white common-card-setting;
 }
 .card-with-back:hover .card-front {
   transform: rotateY(-180deg);
 }
 
 .card-back {
-  transition: all 3s;
-  backface-visibility: hidden;
   transform: rotateY(-180deg);
-  @apply w-80 h-[30rem] absolute;
+  @apply w-full h-[34rem] absolute rounded-lg overflow-hidden common-card-setting;
 }
 .card-with-back:hover .card-back {
   transform: rotateY(0);
