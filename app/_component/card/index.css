@@ -1,5 +1,36 @@
-.card{
-    background: rgba(255, 255, 255, 0.582);
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.589);
-    @apply rounded-sm hover:-translate-y-2 hover:scale-105 transition-all duration-300
+.card {
+  background: rgba(255, 255, 255, 0.582);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.589);
+  @apply rounded-sm hover:-translate-y-2 hover:scale-105 transition-all duration-300;
+}
+
+/* ------------------------------------------------- */
+/* card with back */
+.card-with-back {
+  @apply w-80 h-[34rem] border relative;
+  backface-visibility: hidden;
+  transition: all 3s;
+  perspective: 100rem;
+  /* transform: rotateY(180deg); */
+}
+/* .card-with-back:hover {
+    transform: rotateY(-180deg);
+} */
+.card-front {
+  backface-visibility: hidden;
+  transition: all 3s;
+  @apply w-72 h-[30rem] absolute bg-white;
+}
+.card-with-back:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.card-back {
+  transition: all 3s;
+  backface-visibility: hidden;
+  transform: rotateY(-180deg);
+  @apply w-80 h-[30rem] bg-blue-500 absolute;
+}
+.card-with-back:hover .card-back {
+  transform: rotateY(0);
 }
