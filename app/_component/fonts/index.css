@@ -2,7 +2,6 @@
   @apply text-7xl w-full text-center uppercase text-white;
   letter-spacing: 3.5rem;
 }
-
 .heading-subprimary {
   @apply font-bold text-2xl w-full text-center uppercase text-white;
   letter-spacing: 1.6rem;
@@ -13,3 +12,33 @@
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
 }
+/* 
+@media (max-width: 1050px) {
+  .heading-primary {
+    letter-spacing: 1.5rem;
+    font-size: 4.3rem;
+  }
+  .heading-subprimary {
+    letter-spacing: 0.9rem;
+    font-size: 1.4rem
+  }
+}
+
+@media (max-width: 775px) {
+  .heading-primary {
+    @apply tracking-widest;
+  }
+  .heading-subprimary {
+    letter-spacing: 0.5rem;
+  }
+}
+@media (max-width: 642px) {
+  .heading-primary {
+    @apply tracking-normal;
+    font-size: 3.5rem
+  }
+  .heading-subprimary {
+    letter-spacing: 0.4rem;
+    font-size: 1.1rem
+  }
+} */

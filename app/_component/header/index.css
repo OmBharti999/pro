@@ -1,5 +1,5 @@
 header {
-  @apply flex h-[95vh] flex-col items-center justify-start p-16 gap-12;
+  @apply flex h-[95vh] flex-col items-center justify-start p-4 md:p-16 gap-12;
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),
