@@ -1,10 +1,18 @@
 import React from "react";
-import { HeadingSecondary } from "..";
+import { CardWithBack, HeadingSecondary } from "..";
 
 export const CardsSection = () => {
   return (
     <section className="section-tours">
-      <HeadingSecondary content="Most popular tours" addClass="py-2 mb-12 mt-16 " />
+      <HeadingSecondary
+        content="Most popular tours"
+        addClass="py-2 mb-12 mt-16 "
+      />
+      <div>
+        <CardWithBack />
+        <CardWithBack />
+        <CardWithBack />
+      </div>
     </section>
   );
 };
