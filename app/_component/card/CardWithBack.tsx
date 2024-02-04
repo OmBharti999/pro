@@ -20,29 +20,30 @@ export const CardWithBack = ({
   highlight,
 }: Props) => {
   return (
-    <div className="card-with-back">
+    <div className="card-with-back flex-center my-1">
       <div className="card-front">
         <div>
           <img src={src} width={"100%"} height={"12rem"} />
         </div>
-        <div>
-          {/* <h4 className="py-3 border-t-2 border-b-2">{price}</h4> */}
+        <div className="text-center">
           <Heading content={price} addClass="py-3 border-t-2 border-b-2" />
           <Heading
             content={peopleCount}
             addClass="py-3 border-t-2 border-b-2"
           />
           <Heading content={price} addClass="py-3 border-t-2 border-b-2" />
-          {/* <h6>{"sleep in coosy hotel"}</h6> */}
           <Heading content={highlight} addClass="py-3 border-t-2 border-b-2" />
-          {/* <h6>{guidsCount}</h6> */}
           <Heading content={guidsCount} addClass="py-3 border-t-2 border-b-2" />
-          {/* <h6>{"Difficulty: very easy"}</h6> */}
           <Heading content={difficulty} addClass="py-3 border-t-2 border-b-2" />
         </div>
       </div>
-      <div className="card-back">
-        <Heading content={price} />
+      <div className="card-back flex-center">
+        <div className="text-center">
+          <Heading content={price} addClass="text-5xl" />
+          <button className="py-3 px-8 rounded-full bg-green-500 text-white mt-8">
+            Book Now
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@
 /* ------------------------------------------------- */
 /* card with back */
 .card-with-back {
-  @apply w-80 h-[30rem] border relative;
+  @apply w-80 h-[34rem] border relative;
   backface-visibility: hidden;
   transition: all 3s;
   perspective: 100rem;
