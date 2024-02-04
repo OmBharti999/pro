@@ -8,7 +8,7 @@ export const CardsSection = () => {
         content="Most popular tours"
         addClass="py-2 mb-12 mt-16 "
       />
-      <div>
+      <div className="md:flex">
         <CardWithBack
           src={"assets/image-1.jpg"}
           price="$ 150"
