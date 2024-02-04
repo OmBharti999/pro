@@ -9,25 +9,9 @@
 }
 
 body {
-  @apply w-full box-border md:p-6;
+  @apply w-full box-border md:p-6 min-w-80;
 }
 
 .flex-center {
   @apply flex justify-center items-center;
-}
-
-@media (max-width: 1050px) {
-  html {
-    font-size: 80%;
-  }
-}
-@media (max-width: 750px) {
-  html {
-    font-size: 75%;
-  }
-}
-@media (max-width: 640px) {
-  html {
-    font-size: 70%;
-  }
 }
