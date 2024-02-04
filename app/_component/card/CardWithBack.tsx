@@ -8,7 +8,8 @@ interface Props {
   guidsCount: string;
   difficulty: string;
   highlight: string;
-  btnbg?: string;
+  btnBg?: string;
+  cardBackBg?: string;
 }
 
 export const CardWithBack = ({
@@ -18,7 +19,8 @@ export const CardWithBack = ({
   guidsCount,
   difficulty,
   highlight,
-  btnbg = "bg-green-500",
+  btnBg = "bg-green-500",
+  cardBackBg = "bg-green-100",
 }: Props) => {
   return (
     <div className="card-with-back flex-center my-1">
@@ -38,12 +40,10 @@ export const CardWithBack = ({
           <Heading content={difficulty} addClass="py-3 border-t-2 border-b-2" />
         </div>
       </div>
-      <div className="card-back flex-center">
+      <div className={`card-back flex-center ${cardBackBg}`}>
         <div className="text-center">
           <Heading content={price} addClass="text-5xl" />
-          <button
-            className={`py-3 px-8 rounded-full mt-8 ${btnbg}`}
-          >
+          <button className={`py-3 px-8 rounded-full mt-8 ${btnBg}`}>
             Book Now
           </button>
         </div>

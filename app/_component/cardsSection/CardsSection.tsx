@@ -17,7 +17,9 @@ export const CardsSection = () => {
             guidsCount="2 tour guids"
             difficulty="Difficulty: very easy"
             highlight="sleep in coosy hotel"
-          />
+            btnBg="bg-orange-500"
+            cardBackBg="bg-orange-100"
+            />
           <CardWithBack
             src={"assets/image-2.jpg"}
             price="$ 250"
@@ -25,7 +27,9 @@ export const CardsSection = () => {
             guidsCount="3 tour guids"
             difficulty="Difficulty: very medium"
             highlight="sleep in coosy hotel"
-          />
+            btnBg="bg-green-500"
+            cardBackBg="bg-green-100"
+            />
           <CardWithBack
             src={"assets/image-3.jpg"}
             price="$ 300"
@@ -33,6 +37,8 @@ export const CardsSection = () => {
             peopleCount="upto 50 people"
             guidsCount="4 tour guids"
             difficulty="Difficulty: very hard"
+            btnBg="bg-blue-500"
+            cardBackBg="bg-blue-100"
           />
         </div>
       </div>
