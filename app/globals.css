@@ -9,7 +9,7 @@
 }
 
 body {
-  @apply w-full box-border p-6;
+  @apply w-full box-border md:p-6 min-w-80;
 }
 
 .flex-center {

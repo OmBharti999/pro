@@ -26,7 +26,7 @@ export const CardWithBack = ({
     <div className="card-with-back flex-center my-1">
       <div className="card-front">
         <div>
-          <img src={src} width={"100%"} height={"12rem"} />
+          <img src={src} width={"100%"} height={"12rem"} className="card-with-back-img"/>
         </div>
         <div className="text-center">
           <Heading content={price} addClass="py-3 border-t-2 border-b-2" />
