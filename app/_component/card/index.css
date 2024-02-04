@@ -29,7 +29,7 @@
   transition: all 3s;
   backface-visibility: hidden;
   transform: rotateY(-180deg);
-  @apply w-80 h-[30rem] bg-blue-500 absolute;
+  @apply w-80 h-[30rem] absolute;
 }
 .card-with-back:hover .card-back {
   transform: rotateY(0);
