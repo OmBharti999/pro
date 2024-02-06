@@ -17,9 +17,7 @@ export const CardsSection = () => {
             guidsCount="2 tour guids"
             difficulty="Difficulty: very easy"
             highlight="sleep in coosy hotel"
-            btnBg="bg-orange-500"
-            cardBackBg="bg-orange-100"
-            fromCardBackBg="orangered"
+            fromCardBackBg="#FFA07A"
             toCardBackBg="#FF7F50"
           />
           <CardWithBack
@@ -29,8 +27,6 @@ export const CardsSection = () => {
             guidsCount="3 tour guids"
             difficulty="Difficulty: very medium"
             highlight="sleep in coosy hotel"
-            btnBg="bg-green-500"
-            cardBackBg="bg-green-100"
             fromCardBackBg="#98FB98"
             toCardBackBg="#3CB371"
           />
@@ -41,8 +37,6 @@ export const CardsSection = () => {
             peopleCount="upto 50 people"
             guidsCount="4 tour guids"
             difficulty="Difficulty: very hard"
-            btnBg="bg-blue-500"
-            cardBackBg="bg-blue-100"
             fromCardBackBg="#ADD8E6"
             toCardBackBg="#4682B4"
           />
