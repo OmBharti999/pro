@@ -3,6 +3,7 @@ import "./index.css";
 
 interface Props {
   src: string;
+  imgAlt: string;
   price: string;
   peopleCount: string;
   guidsCount: string;
@@ -17,22 +18,41 @@ export const CardWithBack = ({
   price,
   peopleCount,
   guidsCount,
+  imgAlt,
   difficulty,
   highlight,
   fromCardBackBg = "#ff8a00",
   toCardBackBg = "#da1b60",
 }: Props) => {
+  const imageHeadingArr = imgAlt.split(" ");
+  const imgHeading1 = imageHeadingArr.slice(0, 2).join(" ");
+  const imgHeading2 = imageHeadingArr.slice(2, 3).join(" ");
+
   return (
     <div className="card-with-back flex-center my-1">
       <div className="card-front">
-        <div
-          className={`card-with-back-img`}
-          style={{
-            background: `linear-gradient(to right, ${fromCardBackBg}, ${toCardBackBg}), url(${src})`,
-          }}
-        >
-          {/* <img src={src} className="card-with-back-img" /> */}
-        </div>
+        <section className="img-section">
+          <div
+            className={`card-with-back-img relative`}
+            style={{
+              background: `linear-gradient(to right, ${fromCardBackBg}, ${toCardBackBg}), url(${src})`,
+            }}
+          ></div>
+          <div
+            className="img-description"
+            style={{
+              background: `${toCardBackBg}`,
+            }}
+          >
+            <div className="heading-container top-36 right-4">
+              <Heading content={imgHeading1} addClass="bg-inherit text-right" />
+            </div>
+            <div className="heading-container top-44 right-8">
+              <Heading content={imgHeading2} addClass="bg-inherit text-right" />
+            </div>
+          </div>
+        </section>
+
         <div className="text-center">
           <Heading content={price} addClass="py-3 border-b-2" />
           <Heading content={peopleCount} addClass="py-3 border-b-2" />

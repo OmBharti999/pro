@@ -12,6 +12,7 @@ export const CardsSection = () => {
         <div className="flex-center max-md:flex-col justify-evenly w-full max-md:gap-10 gap-4">
           <CardWithBack
             src={"assets/image-1.jpg"}
+            imgAlt="The sea Explorer"
             price="$ 150"
             peopleCount="upto 20 people"
             guidsCount="2 tour guids"
@@ -22,6 +23,7 @@ export const CardsSection = () => {
           />
           <CardWithBack
             src={"assets/image-2.jpg"}
+            imgAlt="The forest hiker"
             price="$ 250"
             peopleCount="upto 35 people"
             guidsCount="3 tour guids"
@@ -32,6 +34,7 @@ export const CardsSection = () => {
           />
           <CardWithBack
             src={"assets/image-3.jpg"}
+            imgAlt="the snow adventurer"
             price="$ 300"
             highlight="sleep in coosy hotel"
             peopleCount="upto 50 people"

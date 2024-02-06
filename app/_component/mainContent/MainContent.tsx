@@ -14,8 +14,8 @@ export const MainContent = () => {
     <>
       <section className="section-about">
         <HeadingSecondary
-          content="Exciting tour for adventure people"
-          addClass="py-2 mb-12"
+          content="Exciting Tours for Adventurous People"
+          addClass={`py-2 mb-12`}
         />
         <div className="flex-center max-w-[96rem] max-lg:flex-col-reverse mx-auto py-4 md:gap-12 lg:gap-10 mt-8">
           <aside className="w-full flex flex-col justify-center items-end ">
