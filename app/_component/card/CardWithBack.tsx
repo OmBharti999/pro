@@ -65,7 +65,7 @@ export const CardWithBack = ({
       <div
         className={`card-back flex-center`}
         style={{
-          background: `linear-gradient(45deg, ${fromCardBackBg}, ${toCardBackBg})`,
+          background: `linear-gradient(135deg, ${fromCardBackBg}, ${toCardBackBg})`,
         }}
       >
         <div className="text-center">
