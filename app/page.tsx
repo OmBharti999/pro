@@ -9,7 +9,5 @@ export default function Home() {
       <Features />
       <CardsSection />
     </>
-    // <main className="w-full">
-    // </main>
   );
 }

@@ -6,6 +6,12 @@
 
 /* ------------------------------------------------- */
 /* card with back */
+.img-section {
+  @apply relative text-white;
+}
+.img-section .img-description .heading-container {
+  @apply absolute uppercase text-2xl text-right bg-inherit px-2 py-1;
+}
 .common-card-setting {
   backface-visibility: hidden;
   transition: all 0.7s;
@@ -33,6 +39,7 @@
 }
 
 /* card-with-back-img  */
-/* .card-with-back-img{
-  
-} */
+.card-with-back-img {
+  @apply bg-cover h-52 bg-blend-screen;
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+}
