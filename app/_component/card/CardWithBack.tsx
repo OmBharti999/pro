@@ -10,6 +10,8 @@ interface Props {
   highlight: string;
   btnBg?: string;
   cardBackBg?: string;
+  fromCardBackBg: string;
+  toCardBackBg: string;
 }
 
 export const CardWithBack = ({
@@ -21,12 +23,19 @@ export const CardWithBack = ({
   highlight,
   btnBg = "bg-green-500",
   cardBackBg = "bg-green-100",
+  fromCardBackBg = "#ff8a00",
+  toCardBackBg = "#da1b60",
 }: Props) => {
   return (
     <div className="card-with-back flex-center my-1">
       <div className="card-front">
-        <div>
-          <img src={src} width={"100%"} height={"12rem"} className="card-with-back-img"/>
+        <div
+          className={`card-with-back-img`}
+          style={{
+            background: `linear-gradient(to right, ${fromCardBackBg}, ${toCardBackBg}), url(${src})`,
+          }}
+        >
+          {/* <img src={src} className="card-with-back-img" /> */}
         </div>
         <div className="text-center">
           <Heading content={price} addClass="py-3 border-t-2 border-b-2" />
