@@ -41,5 +41,5 @@
 /* card-with-back-img  */
 .card-with-back-img {
   @apply bg-cover h-52 bg-blend-screen;
-  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }

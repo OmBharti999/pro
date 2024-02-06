@@ -11,5 +11,5 @@
 }
 
 .cards-container {
-  @apply flex gap-8 my-32 mb-64 justify-center items-center max-lg:flex-col;
+  @apply flex gap-8 my-32 mb-64 justify-center items-center flex-wrap;
 }

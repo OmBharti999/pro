@@ -9,14 +9,14 @@ export const CardsSection = () => {
         addClass="py-2 mb-12 mt-16 "
       />
       <div className="max-w-7xl flex-center mx-auto">
-        <div className="flex-center max-md:flex-col justify-evenly w-full max-md:gap-10 gap-4">
+        <div className="flex-center max-md:flex-col flex-wrap justify-evenly w-full max-md:gap-20 gap-10 lg:gap-16 xl:gap-28">
           <CardWithBack
             src={"assets/image-1.jpg"}
             imgAlt="The sea Explorer"
             price="$ 150"
             peopleCount="upto 20 people"
             guidsCount="2 tour guids"
-            difficulty="Difficulty: very easy"
+            difficulty="Very Easy"
             highlight="sleep in coosy hotel"
             fromCardBackBg="#FFA07A"
             toCardBackBg="#FF7F50"
@@ -27,7 +27,7 @@ export const CardsSection = () => {
             price="$ 250"
             peopleCount="upto 35 people"
             guidsCount="3 tour guids"
-            difficulty="Difficulty: very medium"
+            difficulty="Medium"
             highlight="sleep in coosy hotel"
             fromCardBackBg="#98FB98"
             toCardBackBg="#3CB371"
@@ -39,7 +39,7 @@ export const CardsSection = () => {
             highlight="sleep in coosy hotel"
             peopleCount="upto 50 people"
             guidsCount="4 tour guids"
-            difficulty="Difficulty: very hard"
+            difficulty="Hard"
             fromCardBackBg="#ADD8E6"
             toCardBackBg="#4682B4"
           />

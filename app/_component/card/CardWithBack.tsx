@@ -29,7 +29,7 @@ export const CardWithBack = ({
   const imgHeading2 = imageHeadingArr.slice(2, 3).join(" ");
 
   return (
-    <div className="card-with-back flex-center my-1">
+    <div className="card-with-back flex-center my-1 shadow-2xl">
       <div className="card-front">
         <section className="img-section">
           <div
@@ -59,7 +59,7 @@ export const CardWithBack = ({
           <Heading content={price} addClass="py-3 border-b-2" />
           <Heading content={highlight} addClass="py-3 border-b-2" />
           <Heading content={guidsCount} addClass="py-3 border-b-2" />
-          <Heading content={difficulty} addClass="py-3" />
+          <Heading content={`Difficulty: ${difficulty}`} addClass="py-3" />
         </div>
       </div>
       <div
