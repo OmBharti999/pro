@@ -53,7 +53,7 @@ export const CardWithBack = ({
           </div>
         </section>
 
-        <div className="text-center">
+        <div className="text-center capitalize">
           <Heading content={price} addClass="py-3 border-b-2" />
           <Heading content={peopleCount} addClass="py-3 border-b-2" />
           <Heading content={price} addClass="py-3 border-b-2" />
