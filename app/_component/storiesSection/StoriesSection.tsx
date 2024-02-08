@@ -1,7 +1,13 @@
 import React from 'react'
+import { HeadingSecondary } from '..'
 
 export const StoriesSection = () => {
   return (
-    <div>StoriesSection</div>
+    <section>
+        <HeadingSecondary
+          content="We make People genuinely happy"
+          addClass={`py-2 mb-12`}
+        />
+        StoriesSection</section>
   )
 }
