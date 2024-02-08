@@ -1,5 +1,11 @@
 import Image from "next/image";
-import { CardsSection, Features, Header, MainContent } from "./_component";
+import {
+  CardsSection,
+  Features,
+  Header,
+  MainContent,
+  StoriesSection,
+} from "./_component";
 
 export default function Home() {
   return (
@@ -8,6 +14,7 @@ export default function Home() {
       <MainContent />
       <Features />
       <CardsSection />
+      <StoriesSection />
     </>
   );
 }
