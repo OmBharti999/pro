@@ -1,4 +1,4 @@
-import { Heading } from "..";
+import { Heading, LinkButton } from "..";
 import "./index.css";
 
 interface Props {
@@ -69,10 +69,13 @@ export const CardWithBack = ({
         }}
       >
         <div className="text-center">
+          <Heading content={"Only"} addClass="text-2xl mb-2" />
           <Heading content={price} addClass="text-5xl" />
-          <button className={`py-3 px-8 rounded-full mt-8 bg-white`}>
-            Book Now
-          </button>
+          <LinkButton
+            url="#"
+            addClass={`mt-8 bg-white`}
+            btnName="Book Now"
+          />
         </div>
       </div>
     </div>

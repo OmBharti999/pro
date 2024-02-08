@@ -10,5 +10,6 @@ export {
 } from "./fonts";
 export { ImageComposition } from "./imageComposition";
 export { Features } from "./features";
-export { Card, CardWithBack } from "./card";
+export { Card, CardWithBack, StoriesCard } from "./card";
 export { CardsSection } from "./cardsSection";
+export { StoriesSection } from "./storiesSection";
