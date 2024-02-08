@@ -10,7 +10,7 @@ interface Props {
 
 export const LinkButton = ({ url, addClass, btnName }: Props) => {
   return (
-    <Link href={url} className={`btn ${addClass}`}>
+    <Link href={url} className={`${addClass} btn`}>
       <PText content={btnName} addClass={"font-medium"} />
     </Link>
   );
