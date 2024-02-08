@@ -9,7 +9,7 @@ export const StoriesSection = () => {
         addClass={`py-2 mb-12`}
       />
 
-      <div>
+      <div className="flex-center flex-col gap-12">
         <StoriesCard />
         <StoriesCard />
       </div>
