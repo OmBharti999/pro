@@ -17,7 +17,7 @@ export const CardsSection = () => {
             peopleCount="upto 20 people"
             guidsCount="2 tour guids"
             difficulty="Very Easy"
-            highlight="sleep in coosy hotel"
+            highlight="sleep in cosy hotel"
             fromCardBackBg="#FFA07A"
             toCardBackBg="#FF7F50"
           />
