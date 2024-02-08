@@ -15,10 +15,14 @@ export const StoriesCard = ({
 }: Props) => {
   return (
     <div className="stories-card shadow-big">
-      <figure className="stories-shape"></figure>
-      <div>
-        <Heading content={cardHeading} addClass="font-bold text-xl" />
-        <PText content={cardContent} />
+      <div className="">
+        <figure className="stories-shape float-left rounded-full p-10">gs
+        {/*  */}
+        </figure>
+        <div className="">
+          <Heading content={cardHeading} addClass="font-bold text-xl" />
+          <PText content={cardContent} />
+        </div>
       </div>
     </div>
   );
