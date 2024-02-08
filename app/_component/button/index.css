@@ -7,7 +7,6 @@
 
 .btn::after {
   content: "";
-  background-color: white;
   @apply inline-block w-full h-full  absolute top-0 left-0 -z-10 rounded-full hover:scale-x-[1.4] hover:scale-y-[1.6] transition-all duration-[400ms] hover:opacity-0;
 }
 

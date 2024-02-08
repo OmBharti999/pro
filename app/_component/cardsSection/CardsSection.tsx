@@ -45,8 +45,14 @@ export const CardsSection = () => {
           />
         </div>
       </div>
-
-      <LinkButton url="#" addClass="bg-green-400 text-white after:bg-green-500" btnName="Discover All Tours" />
+      <div className="flex-center my-28">
+        <LinkButton
+          url="#"
+          addClass="bg-green-400 text-white "
+          btnName="Discover All Tours"
+          afterBtnBg="after:bg-green-500"
+        />
+      </div>
     </section>
   );
 };
