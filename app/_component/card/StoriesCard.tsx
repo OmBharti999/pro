@@ -17,7 +17,7 @@ export const StoriesCard = ({
     <div className="stories-card shadow-big">
       <figure className="stories-shape"></figure>
       <div>
-        <Heading content={cardHeading} />
+        <Heading content={cardHeading} addClass="font-bold text-xl" />
         <PText content={cardContent} />
       </div>
     </div>
