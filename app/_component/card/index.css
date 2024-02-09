@@ -48,5 +48,10 @@
 /* Stories Card */
 /* --------------------------------------------------------------------- */
 .stories-card {
-  @apply w-3/4  ;
+  @apply w-3/4 p-10;
+}
+
+.stories-shape {
+  @apply w-40 h-40 float-left  bg-orange-400;
+  shape-outside: circle(50% at 50% 50%);
 }
