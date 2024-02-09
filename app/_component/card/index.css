@@ -48,5 +48,35 @@
 /* Stories Card */
 /* --------------------------------------------------------------------- */
 .stories-card {
-  @apply w-3/4  ;
+  @apply w-3/4 p-10 max-w-4xl;
+  transform: skewX(-12deg);
+}
+
+.stories-card-inner {
+  transform: skewX(12deg);
+}
+
+.stories-shape {
+  @apply w-40 h-40 float-left;
+  shape-outside: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+.img-caption {
+  @apply absolute top-1/2 left-1/2 text-2xl text-center font-bold text-white uppercase opacity-0;
+  transform: translate(-50%, 20%);
+}
+
+.stories-card:hover .img-caption {
+  @apply opacity-100;
+  transform: translate(-50%, -50%);
+  transition: all 0.6s;
+}
+
+.stories-card img {
+  transition: all 0.6s;
+  transform: scale(140%);
+}
+.stories-card:hover img {
+  transform: scale(100%);
+  filter: blur(2px) brightness(80%);
 }
