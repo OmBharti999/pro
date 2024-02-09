@@ -48,7 +48,7 @@
 /* Stories Card */
 /* --------------------------------------------------------------------- */
 .stories-card {
-  @apply w-3/4 p-10;
+  @apply w-3/4 p-10 max-w-4xl;
   transform: skewX(-12deg);
 }
 
