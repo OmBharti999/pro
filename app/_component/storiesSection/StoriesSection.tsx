@@ -1,5 +1,5 @@
 import React from "react";
-import { HeadingSecondary, StoriesCard } from "..";
+import { HeadingSecondary, LinkButtonSimple, StoriesCard } from "..";
 // import Boy from "@/public/assets/boy.jpg";
 // import Girl from "@/public/assets/girl.jpg";
 
@@ -40,6 +40,13 @@ export const StoriesSection = () => {
             cardContent={content1}
             imgUrl={"/assets/boy.jpg"}
             imgName={"Jack Wilson"}
+          />
+        </div>
+        <div className="flex-center mt-10">
+          <LinkButtonSimple
+            url={"/"}
+            btnName={`Read all stories →`}
+            addClass="mt-4"
           />
         </div>
       </div>
