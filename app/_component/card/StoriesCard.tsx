@@ -17,8 +17,8 @@ export const StoriesCard = ({
 }: Props) => {
   return (
     <div className="stories-card shadow-big">
-      <div className="min-h-40">
-        <figure className="stories-shape mr-4">
+      <div className="stories-card-inner  min-h-40">
+        <figure className="stories-shape mr-8">
           <Image
             src={imgUrl}
             alt={imgName}

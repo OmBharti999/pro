@@ -49,6 +49,11 @@
 /* --------------------------------------------------------------------- */
 .stories-card {
   @apply w-3/4 p-10;
+  transform: skewX(-12deg);
+}
+
+.stories-card-inner {
+  transform: skewX(12deg);
 }
 
 .stories-shape {
