@@ -18,14 +18,14 @@ export const StoriesCard = ({
   return (
     <div className="stories-card shadow-big">
       <div className="stories-card-inner  min-h-40">
-        <figure className="stories-shape mr-8">
+        <figure className="stories-shape mr-8 relative">
           <Image
             src={imgUrl}
             alt={imgName}
             height={imageSize}
             width={imageSize}
-            className="bg-cover"
           />
+          <figcaption className="img-caption">{imgName}</figcaption>
         </figure>
         <div className="h-full">
           <Heading content={cardHeading} addClass="font-bold text-xl mb-2" />

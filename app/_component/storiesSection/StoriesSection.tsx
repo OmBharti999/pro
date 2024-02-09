@@ -22,13 +22,13 @@ export const StoriesSection = () => {
           cardHeading={heading1}
           cardContent={content1}
           imgUrl={"/assets/boy.jpg"}
-          imgName={"JAn pre"}
+          imgName={"Tom Hile"}
         />
         <StoriesCard
           cardHeading={heading2}
           cardContent={content2}
           imgUrl={"/assets/girl.jpg"}
-          imgName={"Aug gun"}
+          imgName={"Aug Jusee"}
         />
       </div>
     </section>
