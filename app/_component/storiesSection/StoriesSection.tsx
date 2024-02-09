@@ -1,5 +1,7 @@
 import React from "react";
 import { HeadingSecondary, StoriesCard } from "..";
+// import Boy from "@/public/assets/boy.jpg";
+// import Girl from "@/public/assets/girl.jpg";
 
 const heading1 = "I had the best week ever with my family";
 const heading2 = "I had the best week ever with my family";
@@ -19,13 +21,13 @@ export const StoriesSection = () => {
         <StoriesCard
           cardHeading={heading1}
           cardContent={content1}
-          imgUrl={""}
+          imgUrl={"/assets/boy.jpg"}
           imgName={"JAn pre"}
         />
         <StoriesCard
           cardHeading={heading2}
           cardContent={content2}
-          imgUrl={""}
+          imgUrl={"/assets/girl.jpg"}
           imgName={"Aug gun"}
         />
       </div>
