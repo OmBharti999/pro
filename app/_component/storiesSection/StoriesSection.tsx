@@ -17,7 +17,7 @@ export const StoriesSection = () => {
         addClass={`py-2 mb-12`}
       />
 
-      <div className="flex-center flex-col gap-12">
+      <div className="flex-center flex-col gap-28 pt-10">
         <StoriesCard
           cardHeading={heading2}
           cardContent={content2}
