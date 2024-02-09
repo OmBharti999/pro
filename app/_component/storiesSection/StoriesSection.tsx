@@ -21,9 +21,6 @@ export const StoriesSection = () => {
         >
           <source src="/assets/beach-video.mp4" />
         </video>
-        {/* <video autoPlay muted loop style={{ width: "500px", height: "500px" }}>
-          <source src="/assets/beach-video.mp4" />
-        </video> */}
       </div>
       <HeadingSecondary
         content="We make People genuinely happy"
