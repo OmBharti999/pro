@@ -16,11 +16,11 @@ export const StoriesCard = ({
   return (
     <div className="stories-card shadow-big">
       <div className="">
-        <figure className="stories-shape float-left rounded-full p-10">gs
+        <figure className="stories-shape mr-5">gs
         {/*  */}
         </figure>
         <div className="">
-          <Heading content={cardHeading} addClass="font-bold text-xl" />
+          <Heading content={cardHeading} addClass="font-bold text-xl mb-2" />
           <PText content={cardContent} />
         </div>
       </div>
