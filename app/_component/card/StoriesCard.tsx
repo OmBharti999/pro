@@ -16,7 +16,7 @@ export const StoriesCard = ({
   imgUrl,
 }: Props) => {
   return (
-    <div className="stories-card shadow-big">
+    <div className="stories-card shadow-big bg-white">
       <div className="stories-card-inner  min-h-40">
         <figure className="stories-shape mr-8 relative">
           <Image
