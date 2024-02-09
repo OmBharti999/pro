@@ -12,7 +12,7 @@ const content2 =
 export const StoriesSection = () => {
   return (
     <section className="relative">
-      <div className="w-full h-full absolute -z-10">
+      <div className="w-full h-full absolute -z-10 opacity-15">
         <video
           loop
           autoPlay
