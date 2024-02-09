@@ -12,6 +12,19 @@ const content2 =
 export const StoriesSection = () => {
   return (
     <section>
+      <div className="w-full h-full">
+        <video
+          loop
+          autoPlay
+          muted
+          style={{ width: "100%", height: "100vh", objectFit: "cover" }}
+        >
+          <source src="/assets/beach-video.mp4" />
+        </video>
+        {/* <video autoPlay muted loop style={{ width: "500px", height: "500px" }}>
+          <source src="/assets/beach-video.mp4" />
+        </video> */}
+      </div>
       <HeadingSecondary
         content="We make People genuinely happy"
         addClass={`py-2 mb-12`}
