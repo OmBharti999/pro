@@ -12,5 +12,10 @@
   @apply mt-4 w-11/12 block;
 }
 .form .form-label {
-  @apply ml-8;
+  @apply ml-8 mt-4 text-sm block;
+  transition: all 0.3s;
+}
+.form .form-input:placeholder-shown + .form-label {
+  @apply opacity-0 invisible -translate-y-10;
+  /* opacity-0 invisible ; */
 }
