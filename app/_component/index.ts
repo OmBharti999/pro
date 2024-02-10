@@ -13,3 +13,5 @@ export { Features } from "./features";
 export { Card, CardWithBack, StoriesCard } from "./card";
 export { CardsSection } from "./cardsSection";
 export { StoriesSection } from "./storiesSection";
+export { BookingSection } from "./bookingSection";
+export { BookForm } from "./bookForm";

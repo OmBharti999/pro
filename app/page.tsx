@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {
+  BookingSection,
   CardsSection,
   Features,
   Header,
@@ -15,6 +16,7 @@ export default function Home() {
       <Features />
       <CardsSection />
       <StoriesSection />
+      <BookingSection />
     </>
   );
 }
