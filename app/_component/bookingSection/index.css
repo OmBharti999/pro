@@ -7,3 +7,7 @@
     url("/assets/header-bg.jpg");
   background-size: cover;
 }
+
+.form .form-input {
+  @apply mt-4 w-11/12 block;
+}
