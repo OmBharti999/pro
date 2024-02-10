@@ -16,6 +16,10 @@ body {
   @apply flex justify-center items-center;
 }
 
-.shadow-big{
+.shadow-big {
   box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.4);
+}
+
+.form-input {
+  @apply px-8 py-2 rounded-sm bg-white/50 focus:outline-none border-b-2 focus:border-green-500 focus:invalid:border-orange-600 focus:shadow-xl;
 }
