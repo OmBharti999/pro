@@ -30,14 +30,18 @@ export const BookForm = () => {
           </label>
         </div>
         <div className="form-fields ">
-          <input id="size" type="radio" name="size" required />
-          <label htmlFor="size" className="form-label inline-block">
-            <span className="size-radio"></span> small tour group
-          </label>
-          <input id="size-2" type="radio" name="size" required />
-          <label htmlFor="size-2" className="form-label inline-block">
-            <span className="size-radio"></span> large tour group
-          </label>
+          <div className="my-4">
+            <input id="size" type="radio" name="size" required />
+            <label htmlFor="size" className="form-label form-radio">
+              <span className="size-radio"></span> small tour group
+            </label>
+          </div>
+          <div>
+            <input id="size-2" type="radio" name="size" required />
+            <label htmlFor="size-2" className="form-label form-radio">
+              <span className="size-radio"></span> large tour group
+            </label>
+          </div>
         </div>
       </form>
     </div>

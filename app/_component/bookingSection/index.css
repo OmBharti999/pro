@@ -20,8 +20,14 @@
 }
 .form .form-input:placeholder-shown + .form-label {
   @apply opacity-0 invisible -translate-y-10;
-  /* opacity-0 invisible ; */
+}
+.form-radio {
+  @apply absolute inline-block ml-8;
 }
 .size-radio {
-  @apply inline-block w-6 h-6 border-4 border-green-600 rounded-full;
+  @apply inline-block w-6 h-6 border-[4px] border-green-600 rounded-full absolute -ml-8 -mt-1;
+}
+.size-radio::after {
+  content: "";
+  @apply h-4 w-4 inline-block bg-green-600 rounded-full;
 }
