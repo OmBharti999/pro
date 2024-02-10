@@ -12,10 +12,16 @@
   @apply mt-4 w-10/12 block;
 }
 .form .form-label {
-  @apply ml-8 mt-4 text-sm block;
+  @apply text-sm;
   transition: all 0.3s;
+}
+.label-prop {
+  @apply ml-8 block mt-1;
 }
 .form .form-input:placeholder-shown + .form-label {
   @apply opacity-0 invisible -translate-y-10;
   /* opacity-0 invisible ; */
+}
+.size-radio {
+  @apply inline-block w-6 h-6 border-4 border-green-600 rounded-full;
 }

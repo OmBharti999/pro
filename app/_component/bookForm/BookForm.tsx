@@ -13,7 +13,7 @@ export const BookForm = () => {
             className="form-input"
             placeholder="Your Name"
           />
-          <label htmlFor="name" className="form-label">
+          <label htmlFor="name" className="form-label label-prop">
             Your Name
           </label>
         </div>
@@ -25,8 +25,18 @@ export const BookForm = () => {
             className="form-input"
             placeholder="Your Email"
           />
-          <label htmlFor="email" className="form-label">
+          <label htmlFor="email" className="form-label label-prop">
             Your Email
+          </label>
+        </div>
+        <div className="form-fields ">
+          <input id="size" type="radio" name="size" required />
+          <label htmlFor="size" className="form-label inline-block">
+            <span className="size-radio"></span> small tour group
+          </label>
+          <input id="size-2" type="radio" name="size" required />
+          <label htmlFor="size-2" className="form-label inline-block">
+            <span className="size-radio"></span> large tour group
           </label>
         </div>
       </form>
