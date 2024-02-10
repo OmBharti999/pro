@@ -11,3 +11,6 @@
 .form .form-input {
   @apply mt-4 w-11/12 block;
 }
+.form .form-label {
+  @apply ml-8;
+}
