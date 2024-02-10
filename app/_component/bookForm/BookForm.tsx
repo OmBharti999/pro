@@ -11,10 +11,10 @@ export const BookForm = () => {
             id="name"
             required
             className="form-input"
-            placeholder="your name"
+            placeholder="Your Name"
           />
           <label htmlFor="name" className="form-label">
-            Name
+            Your Name
           </label>
         </div>
         <div className="form-fields">
@@ -23,10 +23,10 @@ export const BookForm = () => {
             id="email"
             required
             className="form-input"
-            placeholder="your email"
+            placeholder="Your Email"
           />
           <label htmlFor="email" className="form-label">
-            Email
+            Your Email
           </label>
         </div>
       </form>

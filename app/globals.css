@@ -23,3 +23,6 @@ body {
 .form-input {
   @apply px-8 py-2 rounded-sm bg-white/50 focus:outline-none border-b-2 focus:border-green-500 focus:invalid:border-orange-600 focus:shadow-xl;
 }
+.form-label {
+  @apply font-bold ml-8
+}
