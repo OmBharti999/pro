@@ -1,0 +1,9 @@
+.book {
+  background: linear-gradient(
+      105deg,
+      rgba(255, 255, 255, 0.89) 50%,
+      transparent 50%
+    ),
+    url("/assets/header-bg.jpg");
+  background-size: cover;
+}
