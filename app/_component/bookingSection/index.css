@@ -9,5 +9,25 @@
 }
 
 .form .form-input {
-  @apply mt-4 w-11/12 block;
+  @apply mt-4 w-10/12 block;
+}
+.form .form-label {
+  @apply text-sm;
+  transition: all 0.3s;
+}
+.label-prop {
+  @apply ml-8 block mt-1;
+}
+.form .form-input:placeholder-shown + .form-label {
+  @apply opacity-0 invisible -translate-y-10;
+}
+.form-radio {
+  @apply absolute inline-block ml-8;
+}
+.size-radio {
+  @apply inline-block w-6 h-6 border-[4px] border-green-600 rounded-full absolute -ml-8 -mt-1;
+}
+.size-radio::after {
+  content: "";
+  @apply h-4 w-4 inline-block bg-green-600 rounded-full;
 }
