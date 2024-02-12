@@ -42,3 +42,7 @@
 .size-input:checked + .form-label .size-radio::after {
   opacity: 1;
 }
+
+form .btn.form-button {
+  @apply py-3 px-8 bg-green-500 text-white after:bg-green-500 ;
+}

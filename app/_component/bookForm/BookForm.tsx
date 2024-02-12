@@ -55,7 +55,9 @@ export const BookForm = () => {
             </label>
           </div>
         </div>
-        <button className="btn">Submit</button>
+        <div className="mt-4">
+          <button className="btn form-button">Next Step →</button>
+        </div>
       </form>
     </div>
   );
