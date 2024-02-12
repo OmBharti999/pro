@@ -3,6 +3,7 @@ import {
   BookingSection,
   CardsSection,
   Features,
+  Footer,
   Header,
   MainContent,
   StoriesSection,
@@ -17,6 +18,7 @@ export default function Home() {
       <CardsSection />
       <StoriesSection />
       <BookingSection />
+      <Footer />
     </>
   );
 }

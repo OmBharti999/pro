@@ -15,3 +15,4 @@ export { CardsSection } from "./cardsSection";
 export { StoriesSection } from "./storiesSection";
 export { BookingSection } from "./bookingSection";
 export { BookForm } from "./bookForm";
+export { Footer } from "./footer";

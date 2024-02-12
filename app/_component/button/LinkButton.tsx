@@ -16,7 +16,7 @@ export const LinkButton = ({
   afterBtnBg = "after:bg-white",
 }: Props) => {
   return (
-    <Link href={url} className={`${addClass} ${afterBtnBg} btn `}>
+    <Link href={url} className={`${addClass} ${afterBtnBg} btn`}>
       <PText content={btnName} addClass={"font-medium"} />
     </Link>
   );
