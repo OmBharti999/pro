@@ -29,20 +29,33 @@ export const BookForm = () => {
             Your Email
           </label>
         </div>
-        <div className="form-fields ">
-          <div className="my-4">
-            <input id="size" type="radio" name="size" required />
+        <div className="form-fields lg:flex min-h-10 max-lg:min-h-20">
+          <div className="w-1/2 max-lg:min-h-10">
+            <input
+              id="size"
+              type="radio"
+              name="size"
+              required
+              className="size-input"
+            />
             <label htmlFor="size" className="form-label form-radio">
-              <span className="size-radio"></span> small tour group
+              <span className="flex-center size-radio"></span> small tour group
             </label>
           </div>
-          <div>
-            <input id="size-2" type="radio" name="size" required />
+          <div className="w-1/2  max-lg:min-h-10">
+            <input
+              id="size-2"
+              type="radio"
+              name="size"
+              required
+              className="size-input"
+            />
             <label htmlFor="size-2" className="form-label form-radio">
-              <span className="size-radio"></span> large tour group
+              <span className="flex-center size-radio"></span> large tour group
             </label>
           </div>
         </div>
+        <button className="btn">Submit</button>
       </form>
     </div>
   );
