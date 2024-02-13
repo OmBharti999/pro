@@ -1,9 +1,10 @@
 .part {
   @apply border-t border-neutral-600 pt-4;
 }
-.footer-nav-list li a:hover {
+.footer-nav-list li a:hover,
+.footer-hover-effect:hover {
   @apply text-green-400 inline-block bg-neutral-900 font-bold;
-  transform: scale(125%) rotate(7deg);
+  transform: scale(125%) rotate(4deg);
   transition: all 0.4s;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }

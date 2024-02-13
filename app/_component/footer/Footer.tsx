@@ -28,10 +28,10 @@ export const Footer = () => {
           <div className="footer-copyright-text"></div>
           <p className="text-gray-400">
             Build by{" "}
-            <Link className="text-white/90" href={""}>
+            <Link className="text-white/90 footer-hover-effect" href={""}>
               Om
             </Link>{" "}
-            for fun and learning. Copyright © by Om, you are absolutely free to
+            for fun and learning. Copyright © by <span className="footer-hover-effect text-white/95">Om</span>, you are absolutely free to
             use this in your production or self project just dont forget to
             mention me.
           </p>
