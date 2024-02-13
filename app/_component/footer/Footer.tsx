@@ -31,7 +31,9 @@ export const Footer = () => {
             <Link className="text-white/90" href={""}>
               Om
             </Link>{" "}
-            for fun and learning.
+            for fun and learning. Copyright © by Om, you are absolutely free to use
+            this in your production or self project just dont forget to mention
+            me.
           </p>
         </div>
       </div>
