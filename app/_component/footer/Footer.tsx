@@ -1,13 +1,12 @@
 import Link from "next/link";
-import React from "react";
-
+import "./index.css";
 export const Footer = () => {
   return (
-    <footer className="bg-neutral-900 text-white">
-      <div className="footer-logo">{/* image */}logo</div>
-      <div className="row">
-        <div className="part">
-          <ul>
+    <footer className="bg-neutral-900 text-white min-h-[35rem]">
+      <div className="footer-logo flex-center min-h-80">{/* image */}logo</div>
+      <div className="row flex justify-between gap-x-20 max-w-3xl mx-auto">
+        <div className="part ">
+          <ul className="flex gap-x-4  uppercase text-xs">
             <li>
               <Link href={""}>company</Link>
             </li>
@@ -27,9 +26,12 @@ export const Footer = () => {
         </div>
         <div className="part">
           <div className="footer-copyright-text"></div>
-          <p>
-            Build by
-            <Link href={""}>Om</Link> for fun and learning.
+          <p className="text-gray-400">
+            Build by{" "}
+            <Link className="text-white/90" href={""}>
+              Om
+            </Link>{" "}
+            for fun and learning.
           </p>
         </div>
       </div>

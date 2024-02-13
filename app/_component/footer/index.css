@@ -1,0 +1,3 @@
+.part {
+  @apply border-t border-gray-300 pt-4;
+}
