@@ -1,3 +1,15 @@
+.nav-bg-circular {
+  background-image: radial-gradient(rgb(11, 168, 77), rgb(8, 121, 55));
+  @apply w-14 h-14 rounded-full fixed top-12 right-9 z-40;
+}
+
+.nav-button {
+  @apply w-[3.75rem] h-[3.75rem] rounded-full bg-slate-50 fixed top-[2.9rem] right-[2.1rem] z-50;
+}
+.nav-button input {
+  display: none;
+}
+
 .nav-expand {
-  @apply w-screen h-screen fixed top-0 left-0 ;
+  @apply w-screen h-screen fixed top-0 left-0;
 }
