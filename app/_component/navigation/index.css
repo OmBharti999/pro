@@ -1,30 +1,40 @@
+.nav-container {
+  @apply fixed right-0 z-50;
+}
 .nav-bg-circular {
   background-image: radial-gradient(rgb(17, 221, 102), rgb(8, 121, 55));
   @apply w-14 h-14 rounded-full fixed top-12 right-9 z-40;
-  transform: scale(50);
+  /* transform: scale(50); */
+  transition: all 0.4s;
 }
 
 .nav-button {
-  @apply w-[3.75rem] h-[3.75rem] rounded-full bg-slate-50 fixed top-[2.9rem] right-[2.1rem] z-50;
+  @apply w-[3.75rem] h-[3.75rem] rounded-full bg-slate-50 fixed top-[2.9rem] right-[2.1rem] z-[500] shadow-2xl;
 }
-.nav-button input {
+input#nav-input {
   display: none;
 }
 
+/* .nav-button label {
+  @apply z-[100];
+} */
+
 .nav-expand {
-  @apply w-screen h-screen fixed top-0 left-0 z-[60] text-center text-3xl font-light text-white uppercase;
+  @apply w-0 h-screen fixed top-0 right-0 z-[60] text-center text-3xl font-light text-white uppercase overflow-hidden;
+  transition: all 0.3s;
+}
+input#nav-input:checked ~ .nav-bg-circular {
+  transform: scale(50);
+}
+input#nav-input:checked ~ .nav-expand {
+  @apply w-full opacity-100;
 }
 
 .nav-expand ol {
-  @apply space-y-10;
+  @apply space-y-5;
 }
 .nav-expand ol li {
-  background-image: linear-gradient(
-    120deg,
-    /* orangered 0%, */ transparent 50%,
-    white 50%,
-    white 100%
-  );
+  background-image: linear-gradient(120deg, transparent 50%, white 50%);
   background-size: 212%;
   @apply py-3 px-4;
   transition: all 0.4s;
@@ -32,5 +42,5 @@
 
 .nav-expand ol li:hover {
   background-position: 100%;
-  @apply text-green-600
+  @apply text-green-600 translate-x-3;
 }
