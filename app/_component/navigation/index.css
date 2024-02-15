@@ -4,7 +4,6 @@
 .nav-bg-circular {
   background-image: radial-gradient(rgb(17, 221, 102), rgb(8, 121, 55));
   @apply w-14 h-14 rounded-full fixed top-12 right-9 z-40;
-  /* transform: scale(50); */
   transition: all 0.4s;
 }
 
@@ -14,10 +13,6 @@
 input#nav-input {
   display: none;
 }
-
-/* .nav-button label {
-  @apply z-[100];
-} */
 
 .nav-expand {
   @apply w-0 h-screen fixed top-0 right-0 z-[60] text-center text-3xl font-light text-white uppercase overflow-hidden;
