@@ -2,16 +2,18 @@ import { IconType } from "react-icons";
 import { Heading, PText } from "..";
 
 import "./index.css";
+
 interface Props {
   Icons: IconType;
   title: string;
   description: string;
 }
+
 export const Card = ({ Icons, title, description }: Props) => {
   return (
     <div className="card flex-center flex-col w-60 bg-gray-100 min-h-96">
       <div className="flex-center mb-8">
-        <Icons className="w-32 h-32 " />
+        <Icons className="w-32 h-32 text-green-600" />
       </div>
       <div className="flex px-3 flex-col justify-center items-center text-center">
         {/* <Globe /> */}

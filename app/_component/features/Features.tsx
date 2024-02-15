@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "..";
-import { FaGlobeAfrica, FaRegHeart, FaRegMap } from "react-icons/fa";
+import { FaGlobeAfrica } from "react-icons/fa";
+import { CiHeart, CiMap } from "react-icons/ci";
 import { LiaBandcamp } from "react-icons/lia";
 
 import "./index.css";
@@ -23,12 +24,12 @@ export const Features = () => {
             description="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
           />
           <Card
-            Icons={FaRegMap}
+            Icons={CiMap}
             title={"Have a healthier Life"}
             description="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
           />
           <Card
-            Icons={FaRegHeart}
+            Icons={CiHeart}
             title={"Have a healthier Life"}
             description="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
           />
