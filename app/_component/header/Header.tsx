@@ -1,5 +1,5 @@
-// import Image from "next/image";
 import { LinkButton, PrimHeading, SubHeading } from "@/app/_component";
+import { MainIcon } from "../icon";
 
 import "./index.css";
 
@@ -7,15 +7,7 @@ export const Header = () => {
   return (
     <header className="max-w-full">
       <div className="logo-box">
-        {/* <Image
-          className="logo"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        /> */}
-        <h1>Logo</h1>
+        <MainIcon varient="white" />
       </div>
       <div className="text-box">
         <PrimHeading content="Outdoors" addClass="slide-left break-all" />
