@@ -1,3 +1,4 @@
+import { IconSwitcher } from "./_component/IconSwitcher";
 import "./index.css";
 
 export const Navigation = () => {
@@ -5,7 +6,7 @@ export const Navigation = () => {
     <div className="nav-container">
       <input type="checkbox" id="nav-input" />
       <label htmlFor="nav-input" className="nav-button flex-center">
-        Menu
+        <IconSwitcher />
       </label>
       <div className="nav-bg-circular"></div>
       <nav className="nav-expand flex-center ">
