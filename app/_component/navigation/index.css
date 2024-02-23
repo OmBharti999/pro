@@ -1,5 +1,5 @@
 .nav-container {
-  @apply fixed right-0 z-50;
+  @apply fixed right-20 z-50;
 }
 .nav-bg-circular {
   background-image: radial-gradient(rgb(17, 221, 102), rgb(8, 121, 55));
@@ -19,19 +19,34 @@ input#nav-input {
   transition: all 0.3s;
 }
 input#nav-input:checked ~ .nav-bg-circular {
-  transform: scale(50);
+  transform: scale(80);
 }
 input#nav-input:checked ~ .nav-expand {
   @apply w-full opacity-100;
 }
+/* for icon */
+/* .nav-icon {
+  @apply text-2xl;
+}
+.nav-icon-close,
+.nav-icon-menu {
+  display: none;
+}
+input#nav-input:checked ~ .nav-icon .nav-icon-menu {
+  display: inline-block;
+}
+input#nav-input:checked ~ .nav-icon .nav-icon-close {
+  display: inline-block;
+} */
+/* for nav icon end */
 
 .nav-expand ol {
-  @apply space-y-5;
+  @apply space-y-8;
 }
-.nav-expand ol li {
+.nav-expand ol li.nav-item {
   background-image: linear-gradient(120deg, transparent 50%, white 50%);
   background-size: 212%;
-  @apply py-3 px-4;
+  @apply py-3 px-4 font-medium;
   transition: all 0.4s;
 }
 
