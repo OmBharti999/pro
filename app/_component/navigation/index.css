@@ -24,6 +24,21 @@ input#nav-input:checked ~ .nav-bg-circular {
 input#nav-input:checked ~ .nav-expand {
   @apply w-full opacity-100;
 }
+/* for icon */
+/* .nav-icon {
+  @apply text-2xl;
+}
+.nav-icon-close,
+.nav-icon-menu {
+  display: none;
+}
+input#nav-input:checked ~ .nav-icon .nav-icon-menu {
+  display: inline-block;
+}
+input#nav-input:checked ~ .nav-icon .nav-icon-close {
+  display: inline-block;
+} */
+/* for nav icon end */
 
 .nav-expand ol {
   @apply space-y-5;
