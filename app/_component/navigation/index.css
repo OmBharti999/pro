@@ -41,12 +41,12 @@ input#nav-input:checked ~ .nav-icon .nav-icon-close {
 /* for nav icon end */
 
 .nav-expand ol {
-  @apply space-y-5;
+  @apply space-y-8;
 }
-.nav-expand ol li {
+.nav-expand ol li.nav-item {
   background-image: linear-gradient(120deg, transparent 50%, white 50%);
   background-size: 212%;
-  @apply py-3 px-4;
+  @apply py-3 px-4 font-medium;
   transition: all 0.4s;
 }
 
