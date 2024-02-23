@@ -1,5 +1,5 @@
 .nav-container {
-  @apply fixed right-0 z-50;
+  @apply fixed right-20 z-50;
 }
 .nav-bg-circular {
   background-image: radial-gradient(rgb(17, 221, 102), rgb(8, 121, 55));
