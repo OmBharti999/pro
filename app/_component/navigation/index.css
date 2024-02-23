@@ -19,7 +19,7 @@ input#nav-input {
   transition: all 0.3s;
 }
 input#nav-input:checked ~ .nav-bg-circular {
-  transform: scale(50);
+  transform: scale(80);
 }
 input#nav-input:checked ~ .nav-expand {
   @apply w-full opacity-100;
