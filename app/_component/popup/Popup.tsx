@@ -1,11 +1,16 @@
 import Image from "next/image";
 import { Heading, HeadingSecondary } from "..";
 import "./index.css";
+import { CgClose } from "react-icons/cg";
+import Link from "next/link";
 
 export const Popup = () => {
   return (
-    <div className="popup flex-center">
-      <div className="popup_content">
+    <div className="popup flex-center " id="popup">
+      <div className="popup_content relative">
+        <Link href={""}>
+          <CgClose className=" absolute right-10 top-8 text-black" />
+        </Link>
         <aside className="popup_content_left">
           {/* <img */}
           <Image
@@ -14,7 +19,7 @@ export const Popup = () => {
             width={420}
             height={250}
           />
-        
+
           <Image
             src="/assets/boy-tour.jpg"
             alt="tour photo"
@@ -35,9 +40,7 @@ export const Popup = () => {
             consequatur dolorem sed consectetur perferendis quia repudiandae
             vero repellendus. Delectus dolorem eligendi ipsum eum illo non
             cumque natus ipsam corporis nihil provident quis deleniti dolores,
-            quidem modi placeat excepturi incidunt similique. Amet reiciendis
-            nam provident iure, nesciunt, asperiores non magni, voluptatum nemo
-            inventore adipisci beatae nisi rerum repellat. Deleniti minima
+            quidem modi placeat except. asperiores non magni. Deleniti minima
             labore quasi neque, quae enim. Nulla ipsum exercitationem placeat.
           </p>
           <div className="mt-4">

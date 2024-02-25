@@ -1,5 +1,9 @@
 .popup {
-  @apply fixed h-screen w-full z-[500] top-0 left-0 bg-black/80;
+  @apply fixed h-screen w-full z-[500] top-0 left-0 bg-black/80 opacity-0 invisible;
+  transition: all .4s;
+}
+#popup:target {
+  @apply opacity-100 visible;
 }
 .popup_content {
   @apply w-3/4 min-h-96 bg-white rounded-md flex;
@@ -16,4 +20,5 @@
 .popup_description {
   @apply w-full columns-2 gap-x-12 mb-10;
   column-rule: 1px solid rgb(189, 188, 188);
+  hyphens: auto;
 }
