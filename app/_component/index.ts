@@ -17,3 +17,4 @@ export { BookingSection } from "./bookingSection";
 export { BookForm } from "./bookForm";
 export { Footer } from "./footer";
 export { Navigation } from "./navigation";
+export { Popup } from "./popup";

@@ -7,12 +7,14 @@ import {
   Header,
   MainContent,
   Navigation,
+  Popup,
   StoriesSection,
 } from "./_component";
 
 export default function Home() {
   return (
     <>
+      <Popup />
       <Navigation />
       <Header />
       <MainContent />
