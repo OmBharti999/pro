@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Heading, HeadingSecondary } from "..";
 import "./index.css";
 
@@ -5,7 +6,22 @@ export const Popup = () => {
   return (
     <div className="popup flex-center">
       <div className="popup_content">
-        <aside className="popup_content_left">{/* <img */}</aside>
+        <aside className="popup_content_left">
+          {/* <img */}
+          <Image
+            src="/assets/girl-tour.jpg"
+            alt="tour photo"
+            width={420}
+            height={250}
+          />
+        
+          <Image
+            src="/assets/boy-tour.jpg"
+            alt="tour photo"
+            width={420}
+            height={250}
+          />
+        </aside>
         <section className="popup_content_right">
           <HeadingSecondary content="Start Booking Now" addClass="py-2 mb-8" />
 
