@@ -8,5 +8,9 @@
   @apply w-2/6;
 }
 .popup_content_right {
-  @apply w-4/6 text-right p-5;
+  @apply w-4/6 text-left py-6 px-10;
+}
+.popup_description {
+  @apply w-full columns-2 gap-x-12 mb-10;
+  column-rule: 1px solid rgb(189, 188, 188);
 }
