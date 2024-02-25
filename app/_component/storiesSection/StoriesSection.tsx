@@ -25,7 +25,7 @@ export const StoriesSection = () => {
       <div className="py-20">
         <HeadingSecondary
           content="We make People genuinely happy"
-          addClass={`py-2 mb-12`}
+          addClass={`py-2 mb-12 text-center`}
         />
 
         <div className="flex-center flex-col gap-28 pt-10">

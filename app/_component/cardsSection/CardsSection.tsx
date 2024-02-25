@@ -6,7 +6,7 @@ export const CardsSection = () => {
     <section className="section-tours">
       <HeadingSecondary
         content="Most popular tours"
-        addClass="py-2 mb-12 mt-16 "
+        addClass="py-2 mb-12 mt-16 text-center"
       />
       <div className="max-w-7xl flex-center mx-auto ">
         <div className="flex-center max-md:flex-col flex-wrap justify-evenly w-full max-md:gap-20 gap-10 lg:gap-16 xl:gap-28">
