@@ -20,6 +20,7 @@ export const Popup = () => {
             alt="tour photo"
             width={420}
             height={250}
+            className="object-top"
           />
         </aside>
         <section className="popup_content_right">
