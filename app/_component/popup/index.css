@@ -1,0 +1,12 @@
+.popup {
+  @apply fixed h-screen w-full z-[500] top-0 left-0 bg-black/80;
+}
+.popup_content {
+  @apply w-3/4 min-h-96 bg-white rounded-md;
+}
+.popup_content_left {
+  @apply w-2/6;
+}
+.popup_content_right {
+  @apply w-4/6 text-right p-5;
+}
