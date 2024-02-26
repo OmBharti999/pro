@@ -1,13 +1,12 @@
 .popup {
   @apply fixed h-screen w-full z-[500] top-0 left-0 bg-black/80 opacity-0 invisible;
-  transition: all 0.4s;
-  transform: scale(0);
+  transition: all 0.25s;
 }
 .popup:target {
-  transform: scale(1);
   @apply opacity-100 visible;
 }
 .popup_content {
+  transition: all .8s;
   transform: scale(0.1);
   @apply w-3/4 min-h-96 bg-white rounded-md flex;
 }
