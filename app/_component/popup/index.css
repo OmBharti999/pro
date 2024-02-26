@@ -6,7 +6,7 @@
   @apply opacity-100 visible;
 }
 .popup_content {
-  transition: all .8s;
+  transition: all 0.8s;
   transform: scale(0.1);
   @apply w-3/4 min-h-96 bg-white rounded-md flex;
 }
