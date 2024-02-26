@@ -1,13 +1,21 @@
 .popup {
   @apply fixed h-screen w-full z-[500] top-0 left-0 bg-black/80 opacity-0 invisible;
-  transition: all .4s;
+
+  /* opacity-0 invisible */
+  transition: all 0.4s;
+  /* transform: scale(0); */
 }
-#popup:target {
+.popup:target {
+  /* transform: scale(1); */
   @apply opacity-100 visible;
 }
 .popup_content {
+  /* transform: scale(0.1); */
   @apply w-3/4 min-h-96 bg-white rounded-md flex;
 }
+/* .popup:target .popup_content {
+  transform: scale(1);
+} */
 .popup_content_left {
   @apply w-2/6;
 }
@@ -20,5 +28,6 @@
 .popup_description {
   @apply w-full columns-2 gap-x-12 mb-10;
   column-rule: 1px solid rgb(189, 188, 188);
+
   hyphens: auto;
 }

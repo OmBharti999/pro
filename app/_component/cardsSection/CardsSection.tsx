@@ -3,7 +3,7 @@ import { CardWithBack, HeadingSecondary, LinkButton } from "..";
 
 export const CardsSection = () => {
   return (
-    <section className="section-tours">
+    <section className="section-tours" id="section-tour">
       <HeadingSecondary
         content="Most popular tours"
         addClass="py-2 mb-12 mt-16 text-center"
