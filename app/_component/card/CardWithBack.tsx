@@ -71,11 +71,9 @@ export const CardWithBack = ({
         <div className="text-center">
           <Heading content={"Only"} addClass="text-2xl mb-2" />
           <Heading content={price} addClass="text-5xl" />
-          <LinkButton
-            url="#popup-section"
-            addClass={`mt-8 bg-white`}
-            btnName="Book Now"
-          />
+          <a href="#popup-section" className="btn bg-white mt-10">
+            Book Now
+          </a>
         </div>
       </div>
     </div>

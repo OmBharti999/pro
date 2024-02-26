@@ -1,16 +1,16 @@
 import Image from "next/image";
-import {  HeadingSecondary } from "..";
+import { HeadingSecondary } from "..";
 import { CgClose } from "react-icons/cg";
-import Link from "next/link";
+
 import "./index.css";
 
 export const Popup = () => {
   return (
-    <div className="popup flex-center " id="popup-section">
+    <div className="popup flex-center" id="popup-section">
       <div className="popup_content relative">
-        <Link href={"#section-tour"}>
+        <a href="#section-tour">
           <CgClose className=" absolute right-10 top-8 text-black" />
-        </Link>
+        </a>
         <aside className="popup_content_left">
           {/* <img */}
           <Image

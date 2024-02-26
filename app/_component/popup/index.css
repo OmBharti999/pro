@@ -1,21 +1,19 @@
 .popup {
   @apply fixed h-screen w-full z-[500] top-0 left-0 bg-black/80 opacity-0 invisible;
-
-  /* opacity-0 invisible */
   transition: all 0.4s;
-  /* transform: scale(0); */
+  transform: scale(0);
 }
 .popup:target {
-  /* transform: scale(1); */
+  transform: scale(1);
   @apply opacity-100 visible;
 }
 .popup_content {
-  /* transform: scale(0.1); */
+  transform: scale(0.1);
   @apply w-3/4 min-h-96 bg-white rounded-md flex;
 }
-/* .popup:target .popup_content {
+.popup:target .popup_content {
   transform: scale(1);
-} */
+}
 .popup_content_left {
   @apply w-2/6;
 }
