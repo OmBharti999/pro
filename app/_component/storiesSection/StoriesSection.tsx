@@ -44,7 +44,7 @@ export const StoriesSection = () => {
         </div>
         <div className="flex-center mt-10">
           <LinkButtonSimple
-            url={"/"}
+            url={"#section-tour"}
             btnName={`Read all stories →`}
             addClass="mt-4"
           />

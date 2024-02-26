@@ -1,7 +1,7 @@
 .card {
   background: rgba(255, 255, 255, 0.582);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.589);
-  @apply rounded-sm hover:-translate-y-2 hover:scale-105 transition-all duration-300;
+  @apply rounded-md hover:-translate-y-2 hover:scale-105 transition-all duration-300 flex-col w-72 min-h-96;
 }
 
 /* ------------------------------------------------- */

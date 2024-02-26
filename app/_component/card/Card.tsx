@@ -11,7 +11,7 @@ interface Props {
 
 export const Card = ({ Icons, title, description }: Props) => {
   return (
-    <div className="card flex-center flex-col w-60 bg-gray-100 min-h-96">
+    <div className="card flex-center">
       <div className="flex-center mb-8">
         <Icons className="w-32 h-32 text-green-600" />
       </div>
