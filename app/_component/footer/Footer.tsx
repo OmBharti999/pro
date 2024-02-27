@@ -5,8 +5,8 @@ import "./index.css";
 
 export const Footer = () => {
   return (
-    <footer className="bg-neutral-900 text-slate-100 min-h-[35rem] text-sm p-8">
-      <div className="footer-logo flex-center min-h-80">
+    <footer className="bg-neutral-900 text-slate-100 lg:min-h-[35rem] text-sm p-8">
+      <div className="footer-logo flex-center lg:min-h-80 max-lg:mb-10">
         <MainIcon />
       </div>
       <div className="row flex justify-between gap-x-20 max-w-4xl mx-auto flex-wrap content-between min-h-52">
