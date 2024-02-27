@@ -5,12 +5,12 @@ import "./index.css";
 
 export const Footer = () => {
   return (
-    <footer className="bg-neutral-900 text-slate-100 min-h-[35rem] text-sm">
+    <footer className="bg-neutral-900 text-slate-100 min-h-[35rem] text-sm p-8">
       <div className="footer-logo flex-center min-h-80">
-      <MainIcon />
+        <MainIcon />
       </div>
-      <div className="row flex justify-between gap-x-20 max-w-4xl mx-auto flex-wrap">
-        <div className="part">
+      <div className="row flex justify-between gap-x-20 max-w-4xl mx-auto flex-wrap content-between min-h-52">
+        <div className="part ">
           <ul className="flex gap-x-4 uppercase footer-nav-list">
             <li>
               <Link href={""}>company</Link>
@@ -29,7 +29,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="part max-w-[19rem]">
+        <div className="part lg:max-w-80">
           <div className="footer-copyright-text"></div>
           <p className="text-gray-400">
             Build by{" "}
