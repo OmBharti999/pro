@@ -1,4 +1,4 @@
-import { Heading, LinkButton } from "..";
+import { Heading } from "..";
 import "./index.css";
 
 interface Props {

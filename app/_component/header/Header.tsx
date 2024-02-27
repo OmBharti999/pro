@@ -17,7 +17,7 @@ export const Header = () => {
         />
         <LinkButton
           addClass="btn-white btn-animated mt-20"
-          url={"#"}
+          url={"#section-tour"}
           btnName="Discover Our tour"
         />
       </div>
