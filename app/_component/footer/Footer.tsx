@@ -11,7 +11,7 @@ export const Footer = () => {
       </div>
       <div className="row flex justify-between gap-x-20 max-w-4xl mx-auto flex-wrap content-between min-h-52">
         <div className="part ">
-          <ul className="flex gap-x-4 uppercase footer-nav-list">
+          <ul className="flex gap-x-4 uppercase footer-nav-list flex-wrap">
             <li>
               <Link href={""}>company</Link>
             </li>
