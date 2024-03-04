@@ -19,7 +19,7 @@
 }
 
 .card-with-back {
-  @apply w-80 relative common-card-setting;
+  @apply w-80 relative common-card-setting my-1 shadow-2xl flex-col;
   perspective: 100rem;
 }
 
@@ -44,16 +44,60 @@
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
+@media (max-width: 760px) {
+  .card-front,
+  .card-back {
+    position: relative;
+    @apply h-fit;
+  }
+  .card-back {
+    @apply h-[17rem] rounded-t-none;
+    /* background-clip:  */
+    clip-path: polygon(0 28px, 100% 0, 100% 100%, 0 100%);
+  }
+  .card-with-back {
+    @apply h-fit;
+  }
+  .card-with-back:hover .card-front {
+    transform: rotateY(0);
+  }
+
+  .card-back {
+    transform: rotateY(0);
+  }
+  .card-with-back:hover .card-back {
+    transform: rotateY(0);
+  }
+}
+
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
 /* Stories Card */
 /* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
 .stories-card {
-  @apply w-3/4 p-10 max-w-4xl;
+  @apply mx-6 max-sm:mx-3  sm:w-3/4 p-10 max-w-4xl;
   transform: skewX(-12deg);
 }
 
 .stories-card-inner {
   transform: skewX(12deg);
+}
+@media (max-width: 700px) {
+  .stories-card {
+    @apply px-8 py-14 rounded;
+    transform: skewX(0);
+  }
+
+  .stories-card-inner {
+    transform: skewX(0);
+  }
 }
 
 .stories-shape {

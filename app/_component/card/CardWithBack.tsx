@@ -29,7 +29,7 @@ export const CardWithBack = ({
   const imgHeading2 = imageHeadingArr.slice(2, 3).join(" ");
 
   return (
-    <div className="card-with-back flex-center my-1 shadow-2xl">
+    <div className="card-with-back flex-center">
       <div className="card-front">
         <section className="img-section">
           <div

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Heading, PText } from "..";
 import "./index.css";
+
 interface Props {
   cardHeading: string;
   cardContent: string;
