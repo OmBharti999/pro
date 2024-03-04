@@ -9,6 +9,7 @@ const content1 =
   "Last week was an absolute blast with my family, filled with laughter and unforgettable memories. From exploring new places together to sharing delicious meals, every moment was special. We bonded over shared experiences and cherished quality time spent with each other. As we reminisce about our adventures, I am grateful for the precious moments we shared and eagerly look forward to making more memories together in the future.";
 const content2 =
   "My life has undergone a remarkable transformation, and every day feels like a new adventure waiting to unfold. From embracing new opportunities to rediscovering passions, the journey has been exhilarating. I navigate through challenges with confidence and resilience. As I reflect on this newfound chapter, I am grateful for the growth and positive changes that have enriched my life beyond measure.";
+  
 export const StoriesSection = () => {
   return (
     <section className="relative h-full">
