@@ -82,12 +82,22 @@
 /* --------------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */
 .stories-card {
-  @apply w-3/4 p-10 max-w-4xl;
+  @apply mx-6 max-sm:mx-3  sm:w-3/4 p-10 max-w-4xl;
   transform: skewX(-12deg);
 }
 
 .stories-card-inner {
   transform: skewX(12deg);
+}
+@media (max-width: 700px) {
+  .stories-card {
+    @apply px-8 py-14 rounded;
+    transform: skewX(0);
+  }
+
+  .stories-card-inner {
+    transform: skewX(0);
+  }
 }
 
 .stories-shape {
