@@ -2,7 +2,7 @@ import { HeadingSecondary } from "..";
 
 export const BookForm = () => {
   return (
-    <div className="w-1/2 p-12">
+    <div className="max-sm:w-full max-lg:w-3/4 w-1/2 p-12">
       <HeadingSecondary content="Start booking Now!" addClass="py-2 mb-12" />
       <form className="form">
         <div className="form-fields">

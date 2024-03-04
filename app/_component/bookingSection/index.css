@@ -8,8 +8,44 @@
   background-size: cover;
 }
 
+@media (max-width: 1024px) {
+  .book {
+    background: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0.89) 60%,
+        transparent 60%
+      ),
+      url("/assets/header-bg.jpg");
+  }
+}
+@media (max-width: 950px) {
+  .book {
+    background: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0.89) 66%,
+        transparent 66%
+      ),
+      url("/assets/header-bg.jpg");
+  }
+}
+@media (max-width: 700px) {
+  .book {
+    background: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0.89) 75%,
+        transparent 75%
+      ),
+      url("/assets/header-bg.jpg");
+  }
+}
+@media (max-width: 640px) {
+  .book {
+    background: white;
+  }
+}
+
 .form .form-input {
-  @apply mt-4 w-10/12 block;
+  @apply mt-4 w-full sm:w-10/12 block;
 }
 .form .form-label {
   @apply text-sm;
@@ -44,5 +80,5 @@
 }
 
 form .btn.form-button {
-  @apply py-3 px-8 bg-green-500 text-white after:bg-green-500 ;
+  @apply py-3 px-8 bg-green-500 text-white after:bg-green-500;
 }
