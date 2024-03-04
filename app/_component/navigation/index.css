@@ -13,6 +13,15 @@
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+@media (max-width: 500px) {
+  .nav-bg-circular {
+    @apply right-[18px] top-5;
+  }
+  .nav-button {
+    @apply right-4 top-4;
+  }
+}
 input#nav-input {
   display: none;
 }
@@ -27,6 +36,7 @@ input#nav-input:checked ~ .nav-bg-circular {
 input#nav-input:checked ~ .nav-expand {
   @apply w-full opacity-100;
 }
+
 /* for icon */
 /* .nav-icon {
   @apply text-2xl;
